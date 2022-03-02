@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: `new`,
-        siteUrl: `https://www.yourdomain.tld`,
+        title: `Mor-Chiraiya`,
+        siteUrl: `https://www.mor-chiraiya.in`,
     },
     plugins: ["gatsby-plugin-postcss"],
 };

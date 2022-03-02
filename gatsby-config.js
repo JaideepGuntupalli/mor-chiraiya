@@ -3,5 +3,13 @@ module.exports = {
         title: `Mor-Chiraiya`,
         siteUrl: `https://www.mor-chiraiya.in`,
     },
-    plugins: ["gatsby-plugin-postcss"],
+    plugins: [
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                icon: "src/images/mor-chiraiya-logo.png",
+            },
+        },
+        "gatsby-plugin-postcss",
+    ],
 };

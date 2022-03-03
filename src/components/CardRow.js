@@ -1,5 +1,5 @@
 import React from "React";
-import Card from "./Card";
+import BrownCard from "./BrownCard";
 import sparrow from "./../images/cards/sparrow.png";
 import human from "./../images/cards/human.png";
 import decrease from "./../images/cards/decrease.png";
@@ -7,7 +7,7 @@ import decrease from "./../images/cards/decrease.png";
 const CardRow = () => {
     return (
         <section className="flex flex-col py-10 items-center gap-8 md:flex-row md:gap-0 md:px-4 md:items-stretch bg-[#2D2418]">
-            <Card
+            <BrownCard
                 cardTitle="About House Sparrow"
                 imagesrc={sparrow}
                 alt="Sparrow"
@@ -18,7 +18,7 @@ const CardRow = () => {
                     sequi expedita non."
             />
 
-            <Card
+            <BrownCard
                 cardTitle="Behaviour of House Sparrow"
                 imagesrc={human}
                 alt="human"
@@ -29,7 +29,7 @@ const CardRow = () => {
                     sequi expedita non."
             />
 
-            <Card
+            <BrownCard
                 cardTitle="Sparrows are getting less"
                 imagesrc={decrease}
                 alt="decrease"

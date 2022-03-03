@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ cardTitle, imagesrc, alt, content }) => {
+const BrownCard = ({ cardTitle, imagesrc, alt, content }) => {
     return (
         <div className="w-5/6 bg-[#3F3221] p-6 text-center md:mx-4">
             <img
@@ -18,4 +18,4 @@ const Card = ({ cardTitle, imagesrc, alt, content }) => {
     );
 };
 
-export default Card;
+export default BrownCard;

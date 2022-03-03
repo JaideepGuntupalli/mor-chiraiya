@@ -2,7 +2,7 @@ module.exports = {
     pathPrefix: "/mor-chiraiya",
     siteMetadata: {
         title: `Mor-Chiraiya`,
-        siteUrl: `https://www.mor-chiraiya.in`,
+        siteUrl: `https://www.mor-chiraiya.org`,
     },
     plugins: [
         {

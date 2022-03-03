@@ -3,7 +3,7 @@ import sparrow from "../images/sparrow2.jpg";
 
 const Hero = () => {
     return (
-        <div class="relative overflow-hidden pb-10">
+        <div class="relative overflow-hidden">
             <img
                 src={sparrow}
                 alt="Sparrow on a branch"

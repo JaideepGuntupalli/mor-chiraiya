@@ -23,3 +23,10 @@
     background-size: 100% 3px;
     background-position: 0 100%;
 }
+
+.maincard {
+    background: url("./../images/sparrow-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

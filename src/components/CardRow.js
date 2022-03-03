@@ -1,4 +1,4 @@
-import React from "React";
+import * as React from "react";
 import BrownCard from "./BrownCard";
 import sparrow from "./../images/cards/sparrow.png";
 import human from "./../images/cards/human.png";

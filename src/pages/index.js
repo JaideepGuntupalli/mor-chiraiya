@@ -14,7 +14,7 @@ const IndexPage = () => {
             <MainCard />
             {/* <Form /> */}
             <TipSection />
-            <div className="bg-[#94C973] px-10 py-4 text-center flex items-center gap-4 justify-center">
+            <div className="bg-[#94C973] px-10 py-8 text-center flex items-center gap-4 justify-center md:py-4 md:text-xl">
                 <img
                     src={logo}
                     alt="Mahasamund District Logo"

@@ -16,7 +16,7 @@ const TipSection = () => {
                     alt=""
                     className="hidden md:block w-1/2 object-cover"
                 />
-                <ul className="md:flex flex-col gap-4 md:w-1/3 mx-auto p-12 md:px-0">
+                <ul className="md:flex flex-col gap-4 md:w-1/3 mx-auto p-12 md:px-0 md:py-20">
                     <h2 className="font-bold text-4xl">
                         Tips to Save Sparrows
                     </h2>

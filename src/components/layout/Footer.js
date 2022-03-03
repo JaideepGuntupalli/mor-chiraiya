@@ -3,7 +3,7 @@ import morchiraiya from "../../images/mor-chiraiya-logo.png";
 
 const Footer = () => {
     return (
-        <footer className="bg-[#76B947] mt-8">
+        <footer className="bg-[#76B947]">
             <div className="flex p-8 px-10 gap-2 flex-col md:flex-row items-start">
                 <img
                     src={morchiraiya}

@@ -3,11 +3,7 @@ import morchiraiya from "../../images/mor-chiraiya-logo.png";
 
 const Footer = () => {
     return (
-        <footer className="bg-[#8ca88e] mt-8">
-            <div className="bg-[#a1c4a4] px-10 py-4 text-center">
-                An Initiative by Chattisgarh Government
-            </div>
-
+        <footer className="bg-[#76B947] mt-8">
             <div className="flex p-8 px-10 gap-2 flex-col md:flex-row items-start">
                 <img
                     src={morchiraiya}
@@ -27,8 +23,17 @@ const Footer = () => {
                 <p>Phone: +1800-222-3333</p>
                 <p>Email: contact@example.com</p>
             </div>
-            <div className="bg-[#5c6e5d] px-10 py-4 text-sm text-zinc-300 text-center">
-                Copyright 2022. All Rights Reserved
+            <div className="flex flex-col gap-2 md:flex-row justify-evenly bg-[#08392B] px-10 py-4 text-sm text-zinc-300 text-center">
+                <p>Copyright 2022. All Rights Reserved.</p>
+                <p>
+                    Designed & Developed by{" "}
+                    <a
+                        href="https://jaideepguntupalli.com"
+                        className="link link-underline link-underline-zinc"
+                    >
+                        Jaideep Guntupalli
+                    </a>
+                </p>
             </div>
         </footer>
     );

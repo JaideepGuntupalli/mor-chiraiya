@@ -6,7 +6,10 @@ import decrease from "./../../images/cards/decrease.png";
 
 const CardRow = () => {
     return (
-        <section className="flex flex-col py-10 items-center gap-8 md:flex-row md:gap-0 md:px-4 md:items-stretch bg-[#2D2418]">
+        <section
+            className="flex flex-col py-10 items-center gap-8 md:flex-row md:gap-0 md:px-4 md:items-stretch bg-[#2D2418]"
+            id="sparrow"
+        >
             <BrownCard
                 cardTitle="About House Sparrow"
                 imagesrc={sparrow}

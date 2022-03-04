@@ -9,7 +9,7 @@ import Tip from "./Tip";
 
 const TipSection = () => {
     return (
-        <section>
+        <section id="tips">
             <div className="flex gap-12">
                 <img
                     src={sparrow3}

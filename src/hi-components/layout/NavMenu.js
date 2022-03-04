@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "gatsby";
 import menu from "../../images/nav/menu.png";
 import toClose from "../../images/nav/close.png";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 class NavMenu extends Component {
     state = {
@@ -34,7 +35,18 @@ class NavMenu extends Component {
                 </button>
                 <ul className="flex flex-col gap-2 font-semibold text-lg md:flex-row md:gap-12 md:text-xl">
                     <li>
-                        <Link to="/">घर</Link>
+                        <AnchorLink to="/hi/#home">घर</AnchorLink>
+                    </li>
+                    <li>
+                        <AnchorLink to="/hi/#sparrow">
+                            गौरैया के बारे में
+                        </AnchorLink>
+                    </li>
+                    <li>
+                        <AnchorLink to="/hi/#tips">टिप्स</AnchorLink>
+                    </li>
+                    <li>
+                        <AnchorLink to="/hi/#form">गौरैया बचाओ!</AnchorLink>
                     </li>
                     <li>
                         <Link to="/">English(अंग्रेज़ी)</Link>

@@ -4,7 +4,7 @@ import Header from "./Header";
 
 const Layout = ({ pageTitle, children }) => {
     return (
-        <div className="scroll-smooth">
+        <div>
             <title>{pageTitle}</title>
             <Header />
             <main className="bg-[#fffdf1]">{children}</main>

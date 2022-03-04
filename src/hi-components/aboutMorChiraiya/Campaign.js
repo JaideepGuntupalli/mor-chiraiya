@@ -1,5 +1,6 @@
 import * as React from "react";
 import logo from "../../images/mor-chiraiya-logo.png";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const Campaign = () => {
     return (
@@ -22,10 +23,13 @@ const Campaign = () => {
                     सामान देगा जिससे प्रतिभागी आयोजित कार्यशाला में अथवा स्वयं
                     अपने घर में घोसला तैयार कर सकेंगे |
                 </p>
-                {/* <a href="#">Order a Kit!</a> */}
-                <button className="self-start mt-4 p-4 bg-black text-white rounded-md">
+                <AnchorLink
+                    to="/hi/#form"
+                    title="Order Now!"
+                    className="self-start mt-4 p-4 bg-black text-white rounded-md"
+                >
                     आज ही किट ऑर्डर करें!
-                </button>
+                </AnchorLink>
             </div>
         </section>
     );

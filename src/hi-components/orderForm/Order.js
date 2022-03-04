@@ -10,7 +10,10 @@ import coir from "../../images/ingredients/coir.png";
 
 const Order = () => {
     return (
-        <section className="flex flex-col md:flex-row justify-between py-16 md:mx-8">
+        <section
+            className="flex flex-col md:flex-row justify-between py-16 md:mx-8"
+            id="form"
+        >
             <div className="p-8 flex-1">
                 <h2 className="font-bold text-4xl md:text-center mb-8">
                     गौरैया के घोसला बनाने हेतु सामान :

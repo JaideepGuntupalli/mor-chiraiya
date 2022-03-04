@@ -11,6 +11,12 @@ module.exports = {
                 icon: "src/images/mor-chiraiya-logo.png",
             },
         },
+        {
+            resolve: "gatsby-plugin-anchor-links",
+            options: {
+                offset: -100,
+            },
+        },
         "gatsby-plugin-postcss",
     ],
 };

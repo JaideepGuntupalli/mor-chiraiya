@@ -1,5 +1,5 @@
 import * as React from "react";
-import TransparentCard from "./TransparentCard";
+import TransparentCard from "./../commonComponents/TransparentCard";
 
 const MainCard = () => {
     return (

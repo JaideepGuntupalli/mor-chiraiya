@@ -1,12 +1,12 @@
 import * as React from "react";
 import Layout from "../hi-components/layout/Layout";
 import Hero from "./../hi-components/Hero";
-import CardRow from "../hi-components/aboutSparrow/CardRow";
-import MainCard from "../hi-components/main/MainCard";
-import TipSection from "../hi-components/tips/TipSection";
+import CardRow from "../hi-components/CardRow";
+import MainCard from "../hi-components/MainCard";
+import TipSection from "../hi-components/TipSection";
 import logo from "../images/gov_logo.png";
-import Order from "../hi-components/orderForm/Order";
-import Campaign from "../hi-components/aboutMorChiraiya/Campaign";
+import Order from "../hi-components/Order";
+import Campaign from "../hi-components/Campaign";
 
 const Hindi = () => {
     return (

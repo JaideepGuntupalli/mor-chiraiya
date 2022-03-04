@@ -1,5 +1,5 @@
 import * as React from "react";
-import logo from "../../images/mor-chiraiya-logo.png";
+import logo from "../images/mor-chiraiya-logo.png";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const Campaign = () => {

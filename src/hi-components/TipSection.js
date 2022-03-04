@@ -1,11 +1,11 @@
 import * as React from "react";
-import sparrow3 from "./../../images/sparrow3.jpg";
-import water from "./../../images/tips/wash.png";
-import leaf from "./../../images/tips/leaf.png";
-import grains from "./../../images/tips/grain.png";
-import pesticide from "./../../images/tips/pesticide.png";
-import car from "./../../images/tips/electric-car.png";
-import Tip from "./Tip";
+import sparrow3 from "./../images/sparrow3.jpg";
+import water from "./../images/tips/wash.png";
+import leaf from "./../images/tips/leaf.png";
+import grains from "./../images/tips/grain.png";
+import pesticide from "./../images/tips/pesticide.png";
+import car from "./../images/tips/electric-car.png";
+import Tip from "./../commonComponents/Tip";
 
 const TipSection = () => {
     return (

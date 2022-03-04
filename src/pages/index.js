@@ -1,12 +1,12 @@
 import * as React from "react";
 import Layout from "../components/layout/Layout";
 import Hero from "./../components/Hero";
-import CardRow from "../components/aboutSparrow/CardRow";
-import MainCard from "../components/main/MainCard";
-import TipSection from "../components/tips/TipSection";
+import CardRow from "../components/CardRow";
+import MainCard from "../components/MainCard";
+import TipSection from "./../components/TipSection";
 import logo from "../images/gov_logo.png";
-import Order from "../components/orderForm/Order";
-import Campaign from "../components/aboutMorChiraiya/Campaign";
+import Order from "../components/Order";
+import Campaign from "../components/Campaign";
 
 const IndexPage = () => {
     return (

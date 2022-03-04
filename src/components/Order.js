@@ -1,12 +1,12 @@
 import * as React from "react";
-import Form from "./Form";
-import Ingredient from "./Ingredient";
-import bamboo from "../../images/ingredients/bamboo.png";
-import bangles from "../../images/ingredients/bangles.png";
-import gum from "../../images/ingredients/gum.png";
-import yarn from "../../images/ingredients/yarn.png";
-import jute from "../../images/ingredients/jute.png";
-import coir from "../../images/ingredients/coir.png";
+import Form from "./../commonComponents/orderForm/Form";
+import Ingredient from "./../commonComponents/orderForm/Ingredient";
+import bamboo from "../images/ingredients/bamboo.png";
+import bangles from "../images/ingredients/bangles.png";
+import gum from "../images/ingredients/gum.png";
+import yarn from "../images/ingredients/yarn.png";
+import jute from "../images/ingredients/jute.png";
+import coir from "../images/ingredients/coir.png";
 
 const Order = () => {
     return (
@@ -47,7 +47,7 @@ const Order = () => {
                     <Ingredient imagesrc={coir} altText="Coir" name="Coir" />
                 </ul>
             </div>
-            <Form />
+            <Form title="Come and Contribute" />
         </section>
     );
 };

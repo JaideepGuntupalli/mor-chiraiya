@@ -25,9 +25,9 @@ const Campaign = () => {
                     in the workshop organized or at their own home.
                 </p>
                 <AnchorLink
-                    to="/hi/#form"
+                    to="/#form"
                     title="Order Now!"
-                    className="self-start mt-4 p-4 bg-black text-white rounded-md"
+                    className="self-start mt-4 p-4 bg-[#76B947] text-black font-semibold rounded-md"
                 >
                     ORDER A KIT, TODAY!
                 </AnchorLink>

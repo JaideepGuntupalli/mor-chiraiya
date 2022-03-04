@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "gatsby";
 import menu from "../../images/nav/menu.png";
 import toClose from "../../images/nav/close.png";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
@@ -41,13 +40,15 @@ class NavMenu extends Component {
                         <AnchorLink to="/#sparrow">About Sparrows</AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink to="/#tips">Tips</AnchorLink>
+                        <AnchorLink to="/#tips">Save Sparrows</AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink to="/#form">Order Now!</AnchorLink>
-                    </li>
-                    <li>
-                        <Link to="/hi">हिन्दी (Hindi)</Link>
+                        <AnchorLink
+                            to="/#form"
+                            className="text-gray-100 p-2 px-4 bg-[#76b947] rounded-md"
+                        >
+                            Act Now!
+                        </AnchorLink>
                     </li>
                 </ul>
             </>

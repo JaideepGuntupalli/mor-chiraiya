@@ -43,13 +43,15 @@ class NavMenu extends Component {
                         </AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink to="/hi/#tips">टिप्स</AnchorLink>
+                        <AnchorLink to="/hi/#tips">गौरैया बचाओ</AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink to="/hi/#form">गौरैया बचाओ!</AnchorLink>
-                    </li>
-                    <li>
-                        <Link to="/">English(अंग्रेज़ी)</Link>
+                        <AnchorLink
+                            to="/hi/#form"
+                            className="text-gray-100 p-2 px-4 bg-[#76b947] rounded-md"
+                        >
+                            अब सहेजें!
+                        </AnchorLink>
                     </li>
                 </ul>
             </>

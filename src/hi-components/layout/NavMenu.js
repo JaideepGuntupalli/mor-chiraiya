@@ -33,7 +33,7 @@ class NavMenu extends Component {
                         className="h-6"
                     />
                 </button>
-                <ul className="flex flex-col gap-2 font-semibold text-lg md:flex-row md:gap-12 md:text-xl">
+                <ul className="flex flex-col gap-2 font-semibold text-lg md:flex-row md:gap-12 lg:text-xl">
                     <li>
                         <AnchorLink to="/hi/#home">घर</AnchorLink>
                     </li>

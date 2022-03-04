@@ -11,7 +11,7 @@ const Header = () => {
                 <img
                     src={morchiraiya}
                     alt="Logo of the initiative Mor-Chiraiya"
-                    className="mx-auto h-16 md:m-0"
+                    className="hidden md:block mx-auto h-16 md:m-0"
                 />
                 <NavMenu />
             </nav>

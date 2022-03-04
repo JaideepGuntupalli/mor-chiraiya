@@ -1,19 +1,22 @@
 import React, { Component } from "react";
-import { Link } from "gatsby";
 import menu from "../../images/nav/menu.png";
 import toClose from "../../images/nav/close.png";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
+import morchiraiya from "../../images/mor-chiraiya-logo.png";
 
 class NavMenu extends Component {
     state = {
-        open: true,
+        isOpen: true,
     };
-    toggleImage = () => {
-        this.setState((state) => ({ open: !state.open }));
+
+    toggleMenu = () => {
+        this.setState((prevState) => ({
+            isOpen: !prevState.isOpen,
+        }));
     };
 
     getImage = () => {
-        if (this.state.open) {
+        if (this.state.isOpen) {
             return menu;
         } else {
             return toClose;
@@ -21,19 +24,32 @@ class NavMenu extends Component {
     };
 
     render() {
+        const { isOpen } = this.state;
+
         return (
             <>
-                <button
-                    onClick={this.toggleImage}
-                    className="absolute top-9 right-14 md:hidden"
-                >
+                <div className="relative w-full md:hidden">
                     <img
-                        src={this.getImage()}
-                        alt="Menu button"
-                        className="h-6"
+                        src={morchiraiya}
+                        alt="Logo of the initiative Mor-Chiraiya"
+                        className="h-16 mx-auto"
                     />
-                </button>
-                <ul className="flex flex-col gap-2 font-semibold text-lg md:flex-row md:gap-12 lg:text-xl">
+                    <button
+                        onClick={this.toggleMenu}
+                        className="absolute top-5 right-0"
+                    >
+                        <img
+                            src={this.getImage()}
+                            alt="Menu button"
+                            className="h-6"
+                        />
+                    </button>
+                </div>
+                <ul
+                    className={`flex flex-col gap-4 font-semibold text-lg md:flex-row md:gap-12 lg:text-xl text-center ${
+                        isOpen ? "hidden" : ""
+                    }`}
+                >
                     <li>
                         <AnchorLink to="/hi/#home">घर</AnchorLink>
                     </li>

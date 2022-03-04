@@ -11,33 +11,21 @@ const CardRow = () => {
                 cardTitle="About House Sparrow"
                 imagesrc={sparrow}
                 alt="Sparrow"
-                content="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Molestiae delectus repellendus illum praesentium voluptates
-                    quidem eius ipsa porro, quaerat similique, dolorem
-                    architecto officiis assumenda doloribus provident tenetur
-                    sequi expedita non."
+                content="Many species of sparrow are found around the world, it is a bird of the Passeridae family. The length of the sparrow is about 16 cm and its weight is only between 25 and 40 grams. The female sparrow is brown in color and the male has white and brown feathers on his back."
             />
 
             <BrownCard
                 cardTitle="Behaviour of House Sparrow"
                 imagesrc={human}
                 alt="human"
-                content="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Molestiae delectus repellendus illum praesentium voluptates
-                    quidem eius ipsa porro, quaerat similique, dolorem
-                    architecto officiis assumenda doloribus provident tenetur
-                    sequi expedita non."
+                content="Sparrows are closely related to the human population. It prefers to be around humans so that it gets both food and shelter. Sparrows mainly like to eat grains and seeds. They are omnivores and also eat insects, fruits, etc."
             />
 
             <BrownCard
                 cardTitle="Sparrows are getting less"
                 imagesrc={decrease}
                 alt="decrease"
-                content="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Molestiae delectus repellendus illum praesentium voluptates
-                    quidem eius ipsa porro, quaerat similique, dolorem
-                    architecto officiis assumenda doloribus provident tenetur
-                    sequi expedita non."
+                content="In the last five years alone, the sparrow population has decreased by more than 60%. The main reason for this is human activities. It has been included in its Red List by the International Union for Conservation of Nature, which is a list of threatened species."
             />
         </section>
     );

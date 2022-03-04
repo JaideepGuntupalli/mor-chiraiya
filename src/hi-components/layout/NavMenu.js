@@ -48,7 +48,7 @@ class NavMenu extends Component {
                 <ul
                     className={`flex flex-col gap-4 font-semibold text-lg md:flex-row md:gap-12 lg:text-xl text-center ${
                         isOpen ? "hidden" : ""
-                    }`}
+                    } md:flex`}
                 >
                     <li>
                         <AnchorLink to="/hi/#home">घर</AnchorLink>

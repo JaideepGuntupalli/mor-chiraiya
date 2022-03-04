@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="bg-[#76B947]">
             <section className="md:flex">
-                <div className="flex p-8 px-10 gap-2 flex-col items-start md:flex-1">
+                <div className="flex p-8 px-10 gap-2 flex-col items-start md:flex-1 md:pl-20">
                     <img
                         src={morchiraiya}
                         alt="Logo of the initiative Mor-Chiraiya"

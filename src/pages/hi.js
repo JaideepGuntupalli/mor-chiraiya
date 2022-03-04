@@ -8,7 +8,7 @@ import logo from "../images/gov_logo.png";
 import Order from "../hi-components/orderForm/Order";
 import Campaign from "../hi-components/aboutMorChiraiya/Campaign";
 
-const About = () => {
+const Hindi = () => {
     return (
         <Layout pageTitle="मोर चिरैया">
             <Hero />
@@ -33,4 +33,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Hindi;

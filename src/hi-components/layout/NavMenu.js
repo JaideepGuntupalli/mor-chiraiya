@@ -34,10 +34,10 @@ class NavMenu extends Component {
                 </button>
                 <ul className="flex flex-col gap-2 font-semibold text-lg md:flex-row md:gap-12 md:text-xl">
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/">घर</Link>
                     </li>
                     <li>
-                        <Link to="/hi">हिन्दी (Hindi)</Link>
+                        <Link to="/">English(अंग्रेज़ी)</Link>
                     </li>
                 </ul>
             </>

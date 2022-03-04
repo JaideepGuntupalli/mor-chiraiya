@@ -6,6 +6,12 @@ module.exports = {
     },
     plugins: [
         {
+            resolve: "gatsby-plugin-brotli",
+            options: {
+                extensions: ["css", "html", "js", "svg", "png", "jpg"],
+            },
+        },
+        {
             resolve: `gatsby-plugin-manifest`,
             options: {
                 icon: "src/images/mor-chiraiya-logo.png",

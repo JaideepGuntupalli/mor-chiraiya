@@ -1,5 +1,6 @@
 import * as React from "react";
 import sparrow from "../images/sparrow2.jpg";
+import sparrowm from "../images/sparrow2m.jpg";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const Hero = () => {
@@ -8,7 +9,12 @@ const Hero = () => {
             <img
                 src={sparrow}
                 alt="Sparrow on a branch"
-                className="h-[80vh] object-cover lg:h-[90vh] xl:h-max"
+                className="hidden sm:block h-[80vh] object-cover lg:h-[90vh] xl:h-max"
+            />
+            <img
+                src={sparrowm}
+                alt="Sparrow on a branch"
+                className="object-cover min-h-[90vh] h-max sm:hidden"
             />
             <div className="absolute flex flex-col top-8 sm:top-20 md:top-30 lg:top-36 left-3 md:left-16">
                 <p class="p-4 sm:p-4 md:p-8 text-white text-3xl md:text-5xl text-left font-light">

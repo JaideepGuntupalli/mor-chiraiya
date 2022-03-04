@@ -1,8 +1,8 @@
 import * as React from "react";
-import logo from "../../images/mor-chiraiya-logo.png";
+import logo from "../images/mor-chiraiya-logo.png";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-const Campaign = ({ heading, content, cta }) => {
+const Campaign = ({ title, content, cta }) => {
     return (
         <section className="flex flex-col items-center gap-8 p-8 md:flex-row bg-[#F7E2C7]">
             <img
@@ -11,9 +11,7 @@ const Campaign = ({ heading, content, cta }) => {
                 className=" w-1/2 md:w-3/5 md:m-8 md:ml-16"
             />
             <div className="flex flex-col gap-4  md:m-8">
-                <h2 className="font-semibold text-2xl md:text-4xl">
-                    {heading}
-                </h2>
+                <h2 className="font-semibold text-2xl md:text-4xl">{title}</h2>
                 <p className="md:text-lg">{content}</p>
                 <AnchorLink
                     to="/#form"

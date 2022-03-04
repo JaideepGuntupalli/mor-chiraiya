@@ -6,7 +6,7 @@ import MainCard from "../components/MainCard";
 import TipSection from "./../components/TipSection";
 import logo from "../images/gov_logo.png";
 import Order from "../components/Order";
-import Campaign from "../components/Campaign";
+import Campaign from "../commonComponents/Campaign";
 
 const IndexPage = () => {
     return (
@@ -14,7 +14,11 @@ const IndexPage = () => {
             <Hero />
             <CardRow />
             <MainCard />
-            <Campaign />
+            <Campaign
+                title="What is Mor-Chiraiya?"
+                content="Mahasamund Forest Board is going to start a public initiative called Mor-Chiraiya, in which we will encourage the coming generation to be sensitive towards birds. In this line, our first initiative will be to prepare the nest for sparrows by the hands of children and environmental lovers. Under this initiative, Mahasamund Forest Board will provide DIY kit items so that the participants can prepare the nest in the workshop organized or at their own home."
+                cta="ORDER A KIT, TODAY!"
+            />
             <Order />
             <TipSection />
             <div className="bg-[#94C973] px-10 py-8 text-center flex items-center gap-4 justify-center md:py-4 md:text-xl">

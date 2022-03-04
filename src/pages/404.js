@@ -5,10 +5,10 @@ import logo from "../images/mor-chiraiya-logo.png";
 // markup
 const NotFoundPage = () => {
     return (
-        <main className="bg-[#F7E2C7] h-screen flex flex-col justify-center gap-10 text-center">
+        <main className="bg-[#F7E2C7] h-screen flex flex-col justify-center gap-10 text-center p-4">
             <title>Not found</title>
-            <div className="flex justify-center items-center gap-10 m-10">
-                <img src={logo} alt="Logo" className="w-1/12" />
+            <div className="flex justify-center items-center md:gap-10 m-10">
+                <img src={logo} alt="Logo" className="w-1/3 md:w-1/12" />
                 <h2 className="font-semibold text-3xl">Mor-Chiraya</h2>
             </div>
             <h1 className="self-center font-bold text-5xl">404</h1>
@@ -33,7 +33,7 @@ const NotFoundPage = () => {
                         </Link>
                     </div>
                 </div>
-                <div>
+                <div className="mt-8 md:mt-0">
                     <h2 className="font-semibold text-4xl my-4">
                         पृष्ठ नहीं मिला
                     </h2>

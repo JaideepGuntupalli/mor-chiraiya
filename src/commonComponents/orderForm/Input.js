@@ -2,8 +2,8 @@ import * as React from "react";
 
 const Input = ({ type, name, label }) => {
     return (
-        <div class="flex flex-col gap-2">
-            <label htmlFor={name} class="font-semibold text-2xl">
+        <div class="flex flex-col gap-2 flex-1">
+            <label htmlFor={name} class="font-semibold text-xl md:text-2xl">
                 {label}
             </label>
             <input

@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import morchiraiya from "../../images/mor-chiraiya-logo.png";
 
 const Footer = () => {
@@ -26,9 +27,20 @@ const Footer = () => {
                     <h3 className="text-base md:text-lg md:font-semibold">
                         संपर्क जानकारी
                     </h3>
-                    <p>पता: 184, Main Collins Street West Victoria 8007</p>
-                    <p>फ़ोन नंबर: +1800-222-3333</p>
-                    <p>ईमेल: contact@example.com</p>
+                    <p className="md:w-3/4">
+                        पता: Office of Divisional Forest Officer, Mahasamund
+                        Forest Division, Mahasamund, Chattisgarh
+                    </p>
+                    <p>फ़ोन नंबर: 07723 - 222084</p>
+                    <p>
+                        ईमेल:{" "}
+                        <Link
+                            to="mailto:dfo-mahasamund.cg@gov.in"
+                            className="link link-underline link-underline-black"
+                        >
+                            dfo-mahasamund.cg@gov.in
+                        </Link>
+                    </p>
                 </div>
             </section>
             <div className="flex flex-col gap-2 md:flex-row justify-evenly bg-[#08392B] px-10 py-4 text-sm text-zinc-300 text-center">

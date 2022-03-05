@@ -3,8 +3,11 @@ import Input from "./Input";
 
 const Form = ({ title }) => {
     return (
-        <form action="#" class="flex flex-col gap-4 md:gap-6 p-8 flex-1">
-            <h2 className="font-bold text-4xl">{title}</h2>
+        <form
+            action="#"
+            class="flex flex-col gap-4 md:gap-6 p-8 flex-1 font-sans"
+        >
+            <h2 className="font-bold text-4xl font-serif">{title}</h2>
             <div className="flex gap-4">
                 <Input type="text" name="fname" label="First Name" />
                 <Input type="text" name="lname" label="Last Name" />

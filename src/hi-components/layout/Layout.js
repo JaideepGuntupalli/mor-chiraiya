@@ -4,7 +4,7 @@ import Header from "./Header";
 
 const Layout = ({ pageTitle, children }) => {
     return (
-        <div>
+        <div className="font-serif">
             <title>{pageTitle}</title>
             <Header />
             <main className="bg-[#fffdf1]">{children}</main>

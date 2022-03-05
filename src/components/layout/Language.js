@@ -17,7 +17,7 @@ class Language extends Component {
 
         return (
             <section
-                className={`bg-gray-100 flex justify-center items-center px-4 text-center transition-height duration-500 ease-in-out ${
+                className={`bg-gray-100 font-serif flex justify-center items-center px-4 text-center transition-height duration-500 ease-in-out ${
                     isBoxVisible ? "" : "hidden"
                 }`}
             >
@@ -31,7 +31,7 @@ class Language extends Component {
                         className="h-1 md:h-2 invert"
                     />
                 </button>
-                <p className="p-2 md:text-lg">
+                <p className="p-2 md:text-xl my-auto">
                     वेबसाइट के{" "}
                     <Link
                         to="/hi"

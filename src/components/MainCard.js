@@ -12,7 +12,7 @@ const MainCard = () => {
             />
             <TransparentCard
                 title="How to save sparrows in summer?"
-                content="When we humans crave water in this scorching heat, what about these birds that fly in the sky all day! On the occasion of this World Sparrow Day, participate in the Mor-Chiraya campaign and make people aware by distributing pots and grains for water for birds in the localities. Saving the sparrow is not a very difficult task. If you want, you can also help with this work, for this only you have to set up some birdhouses, wooden boxes in which the bird can make its nest near your house."
+                content="When we humans crave water in this scorching heat, what about these birds that fly in the sky all day! On the occasion of this World Sparrow Day(20th March, 2022), participate in the Mor-Chiraya campaign and make people aware by distributing pots and grains for water for birds in the localities. Saving the sparrow is not a very difficult task. If you want, you can also help with this work, for this only you have to set up some birdhouses, wooden boxes in which the bird can make its nest near your house."
                 cta="SAVE SPARROWS!"
                 link="/#tips"
             />

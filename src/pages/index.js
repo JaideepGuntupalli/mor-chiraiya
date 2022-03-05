@@ -16,7 +16,7 @@ const IndexPage = () => {
             <MainCard />
             <Campaign
                 title="What is Mor-Chiraiya?"
-                content="Mahasamund Forest Board is going to start a public initiative called Mor-Chiraiya, in which we will encourage the coming generation to be sensitive towards birds. In this line, our first initiative will be to prepare the nest for sparrows by the hands of children and environmental lovers. Under this initiative, Mahasamund Forest Board will provide DIY kit items so that the participants can prepare the nest in the workshop organized or at their own home."
+                content="Mahasamund Forest Board has started a public initiative called Mor-Chiraiya, in which we will encourage the coming generation to be sensitive towards birds. In this line, our first initiative will be to prepare the nest for sparrows by the hands of children and environmental lovers. Under this initiative, Mahasamund Forest Board will provide DIY kit items so that the participants can prepare the nest in the workshop organized or at their own home."
                 cta="ORDER A KIT, TODAY!"
             />
             <Order />

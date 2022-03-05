@@ -14,6 +14,8 @@ This is the code base of [Mor-Chiraiya](https://mor-chiraiya.org/).
 - [Table of contents](#table-of-contents)
 - [Overview](#overview)
   - [What is the project?](#what-is-the-project)
+  - [What is the MVP (Minimal Viable Product)?](#what-is-the-mvp-minimal-viable-product)
+  - [What are the sprinkles?](#what-are-the-sprinkles)
   - [When will the project be complete?](#when-will-the-project-be-complete)
   - [Links](#links)
 - [My process](#my-process)
@@ -24,6 +26,14 @@ This is the code base of [Mor-Chiraiya](https://mor-chiraiya.org/).
 ### What is the project?
 
 This is a client project, where i was asked to design and develop a bilingual website promoting a campaign called Mor-Chiraiya by Mahasamund Forest Division for sparrow conservation.
+
+### What is the MVP (Minimal Viable Product)?
+
+The MVP is to built something through which people can get motivated to buy the nests to save our chirpy little friends.
+
+### What are the sprinkles?
+
+The sprinkles include implementing a payment gateway to buy nests.
 
 ### When will the project be complete?
 

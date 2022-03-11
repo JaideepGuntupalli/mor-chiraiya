@@ -25,7 +25,7 @@ const CardRow = () => {
             />
 
             <BrownCard
-                cardTitle="Sparrows are getting less"
+                cardTitle="Sparrows are fading away"
                 imagesrc={decrease}
                 alt="decrease"
                 content="In the last five years alone, the sparrow population has decreased by more than 60%. The main reason for this is human activities. It has been included in its Red List by the International Union for Conservation of Nature, which is a list of threatened species."

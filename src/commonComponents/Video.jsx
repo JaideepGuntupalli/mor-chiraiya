@@ -1,7 +1,7 @@
 import * as React from "react";
-import arrow from "../images/arrow.png";
-import box from "../images/box.png";
-import nest from "../images/nest.png";
+import arrow from "../images/arrow.webp";
+import box from "../images/box.webp";
+import nest from "../images/nest.webp";
 
 const Video = ({ heading }) => {
     return (

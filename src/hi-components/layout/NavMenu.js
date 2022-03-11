@@ -9,11 +9,18 @@ import language from "../../images/language.png";
 class NavMenu extends Component {
     state = {
         isOpen: true,
+        isLang: true,
     };
 
     toggleMenu = () => {
         this.setState((prevState) => ({
             isOpen: !prevState.isOpen,
+        }));
+    };
+
+    toggleLang = () => {
+        this.setState((prevState) => ({
+            isLang: !prevState.isLang,
         }));
     };
 
@@ -26,7 +33,7 @@ class NavMenu extends Component {
     };
 
     render() {
-        const { isOpen } = this.state;
+        const { isOpen, isLang } = this.state;
 
         return (
             <>
@@ -48,7 +55,7 @@ class NavMenu extends Component {
                     </button>
                 </div>
                 <ul
-                    className={`flex flex-col gap-4 font-semibold items-center text-lg md:flex-row md:gap-10 lg:text-xl text-center ${
+                    className={`flex flex-col gap-4 font-semibold items-center text-lg md:flex-row md:gap-0 lg:text-xl text-center ${
                         isOpen ? "hidden" : ""
                     } md:flex`}
                 >
@@ -56,51 +63,56 @@ class NavMenu extends Component {
                         <AnchorLink to="/hi/#home">घर</AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink to="/hi/#sparrow">
+                        <AnchorLink className="md:ml-8" to="/hi/#sparrow">
                             गौरैया के बारे में
                         </AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink to="/hi/#tips">गौरैया बचाओ</AnchorLink>
+                        <AnchorLink className="md:ml-8" to="/hi/#tips">
+                            गौरैया बचाओ
+                        </AnchorLink>
                     </li>
                     <li>
                         <AnchorLink
                             to="/hi/#form"
-                            className="text-gray-100 p-1 px-4 bg-[#76b947] rounded-md"
+                            className="text-gray-100 p-1 px-4 md:ml-8 bg-[#76b947] rounded-md"
                         >
                             अब सहेजें!
                         </AnchorLink>
                     </li>
-                    <li>
-                        <button onClick={this.toggleMenu} className="">
-                            <div className="p-3 rounded-full hover:bg-[#00000021]">
+                    <li className="relative min-w-[6rem]">
+                        <button onClick={this.toggleLang}>
+                            <div className="p-3 rounded-full hover:bg-[#00000021] flex">
                                 <img
                                     src={language}
                                     alt="Language Switcher"
-                                    className="w-8 inline mr-4 md:m-0"
+                                    className="w-8 inline mr-3 md:m-0"
                                 />
                                 <p className="font-semibold text-lg md:hidden text-center inline">
-                                    Language
+                                    भाषा:
                                 </p>
                             </div>
                         </button>
+                        <div
+                            className={`absolute top-16 bg-[#F7E2C7] opacity-95 flex flex-row md:flex-col border-2 text-center border-[#443e37] z-10 mx-auto w-full ${
+                                isLang ? "hidden" : ""
+                            }`}
+                        >
+                            <Link
+                                to="/"
+                                className="font-bold px-2 py-1 pl-2 font-sans"
+                            >
+                                English
+                            </Link>
+                            <Link
+                                to=""
+                                className="font-bold bg-[#c9b8a2] text-xl px-2 py-1 pt-2 w-1/2 md:w-full"
+                            >
+                                हिंदी
+                            </Link>
+                        </div>
                     </li>
                 </ul>
-                <div
-                    className={`absolute right-6 top-20 bg-[#F7E2C7] opacity-95 flex flex-col border-2 text-center border-[#443e37] ${
-                        isOpen ? "hidden" : ""
-                    }`}
-                >
-                    <Link to="/" className="font-bold px-2 py-1 pl-2 font-sans">
-                        English
-                    </Link>
-                    <Link
-                        to=""
-                        className="font-bold bg-[#c9b8a2] text-xl px-2 py-1 pt-2"
-                    >
-                        हिंदी
-                    </Link>
-                </div>
             </>
         );
     }

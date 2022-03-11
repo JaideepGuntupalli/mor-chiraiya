@@ -7,14 +7,34 @@ const Form = ({ title }) => {
             action="#"
             class="flex flex-col gap-4 md:gap-6 p-8 flex-1 font-sans"
         >
-            <h2 className="font-bold text-4xl font-serif">{title}</h2>
+            <h2 className="font-bold text-[2rem] font-serif">{title}</h2>
             <div className="flex gap-4">
-                <Input type="text" name="fname" label="First Name" />
-                <Input type="text" name="lname" label="Last Name" />
+                <Input type="text" name="name" label="Name" />
+                <Input type="email" name="email" label="Email ID" />
             </div>
             <div className="flex gap-4">
-                <Input type="email" name="email" label="Email ID" />
                 <Input type="number" name="pnumber" label="Phone Number" />
+                <div class="flex flex-col gap-2 flex-1">
+                    <label
+                        htmlFor="quantity"
+                        class="font-semibold text-xl md:text-2xl"
+                    >
+                        Quantity
+                    </label>
+                    <select
+                        name="quantity"
+                        id="quantity"
+                        className="block bg-slate-300 w-full border border-slate-300 rounded-md py-2 px-3 shadow-sm focus:outline-none focus:border-slate-300 focus:ring-slate-300 focus:ring-1 sm:text-lg"
+                    >
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
             </div>
             <Input type="street" name="autocomplete" label="Street" />
 
@@ -25,9 +45,9 @@ const Form = ({ title }) => {
             </div>
 
             <div className="flex gap-4">
-                <Input type="zip" name="InputZip" label="Zip" />
-
                 <Input type="country" name="InputCountry" label="Country" />
+
+                <Input type="pincode" name="InputPincode" label="Pincode" />
             </div>
             <p className="text-sm">
                 Your shipment will be dispatched in 3 working days. All the

@@ -7,6 +7,7 @@ import TipSection from "./../components/TipSection";
 import logo from "../images/gov_logo.png";
 import Order from "../components/Order";
 import Campaign from "../commonComponents/Campaign";
+import Video from "../commonComponents/video";
 
 const IndexPage = () => {
     return (
@@ -19,6 +20,7 @@ const IndexPage = () => {
             />
             <CardRow />
             <MainCard />
+            <Video heading="Learn how to easily build the nest" />
             <Order />
             <TipSection />
             <div className="bg-[#94C973] px-10 py-8 text-center flex items-center gap-4 justify-center md:py-4 md:text-xl">

@@ -6,16 +6,14 @@ import grains from "./../images/tips/grain.png";
 import pesticide from "./../images/tips/pesticide.png";
 import car from "./../images/tips/electric-car.png";
 import Tip from "./../commonComponents/Tip";
+import arrow from "../images/arrow.png";
+import box from "../images/box.png";
+import nest from "../images/nest.png";
 
 const TipSection = () => {
     return (
         <section id="tips">
             <div className="flex gap-12">
-                <img
-                    src={sparrow3}
-                    alt=""
-                    className="hidden md:block w-1/2 object-cover"
-                />
                 <ul className="md:flex flex-col gap-4 md:w-1/3 mx-auto p-12 md:px-0 md:py-20">
                     <h2 className="font-bold text-4xl">
                         गौरैयों को इस तरह बचा सकते हैं
@@ -46,6 +44,11 @@ const TipSection = () => {
                         content="हरियाली बढ़ाएं, छतों पर घोंसला बनाने के लिए कुछ जगह छोड़ें और उनके घोंसलों को नष्ट न करें।"
                     />
                 </ul>
+                <img
+                    src={sparrow3}
+                    alt=""
+                    className="hidden md:block w-1/2 object-cover"
+                />
             </div>
         </section>
     );

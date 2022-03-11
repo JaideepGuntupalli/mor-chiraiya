@@ -8,7 +8,7 @@ const Campaign = ({ title, content, cta }) => {
             <img
                 src={logo}
                 alt="Mor-Chiraya logo"
-                className=" w-1/2 md:w-3/5 md:m-8 md:ml-16"
+                className=" w-1/2 md:w-1/5 md:m-8 md:ml-16"
             />
             <div className="flex flex-col gap-4  md:m-8">
                 <h2 className="font-semibold text-2xl md:text-4xl">{title}</h2>
@@ -21,7 +21,7 @@ const Campaign = ({ title, content, cta }) => {
                     {cta}
                 </AnchorLink>
                 <AnchorLink
-                    to="/#people"
+                    to="#people"
                     title="Order Now!"
                     className="self-start text-black font-semibold rounded-md underline"
                 >

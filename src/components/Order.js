@@ -15,8 +15,8 @@ const Order = () => {
             id="form"
         >
             <div className="p-8 flex-1">
-                <h2 className="font-bold text-4xl md:text-center mb-8">
-                    What will you get in the DIY Kit?
+                <h2 className="font-bold text-[2rem] md:text-center mb-8">
+                    What will you get as part of DIY Kit?
                 </h2>
                 <ul className="flex flex-col justify-evenly gap-6 md:gap-9">
                     <Ingredient
@@ -47,7 +47,7 @@ const Order = () => {
                     <Ingredient imagesrc={coir} altText="Coir" name="Coir" />
                 </ul>
             </div>
-            <Form title="Come and Contribute" />
+            <Form title="Buy Nests, to save our Chirpy Friends!" />
         </section>
     );
 };

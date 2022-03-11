@@ -36,10 +36,10 @@ const Footer = () => {
                     <p>
                         Email:{" "}
                         <Link
-                            to="mailto:dfo-mahasamund.cg@gov.in"
+                            to="mailto:mor.chiraiya@gmail.com"
                             className="link link-underline link-underline-black"
                         >
-                            dfo-mahasamund.cg@gov.in
+                            mor.chiraiya@gmail.com
                         </Link>
                     </p>
                 </div>

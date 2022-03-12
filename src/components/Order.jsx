@@ -47,7 +47,7 @@ const Order = () => {
                     <Ingredient imagesrc={coir} altText="Coir" name="Coir" />
                 </ul>
             </div>
-            <Form title="Buy Nests, to save our Chirpy Friends!" />
+            <Form title="Buy Nests, to save our Chirpy Friends!" isEng={true} />
         </section>
     );
 };

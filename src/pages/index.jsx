@@ -8,6 +8,7 @@ import logo from "../images/gov_logo.webp";
 import Order from "../components/Order";
 import Campaign from "../commonComponents/Campaign";
 import Video from "../commonComponents/video";
+import Workshop from "../components/Workshop";
 
 const IndexPage = () => {
     return (
@@ -22,6 +23,7 @@ const IndexPage = () => {
             <MainCard />
             <Video heading="Learn how to easily build the nest" />
             <Order />
+            <Workshop />
             <TipSection />
             <div className="bg-[#94C973] px-10 py-8 text-center flex items-center gap-4 justify-center md:py-4 md:text-xl">
                 <img

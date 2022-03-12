@@ -1,19 +1,25 @@
 import * as React from "react";
 import Input from "./Input";
 
-const Form = ({ title }) => {
+const Form = ({ title, isEng }) => {
     return (
         <form
             action="#"
             class="flex flex-col gap-4 md:gap-6 p-8 flex-1 font-sans"
         >
-            <h2 className="font-bold text-[2rem] font-serif">{title}</h2>
+            <h2
+                className={`font-bold text-[2rem] ${
+                    isEng ? "font-sans" : "font-serif"
+                }`}
+            >
+                {title}
+            </h2>
             <div className="flex gap-4">
                 <Input type="text" name="name" label="Name" />
                 <Input type="email" name="email" label="Email ID" />
             </div>
             <div className="flex gap-4">
-                <Input type="number" name="pnumber" label="Phone Number" />
+                <Input type="number" name="pnumber" label="Phone No." />
                 <div class="flex flex-col gap-2 flex-1">
                     <label
                         htmlFor="quantity"

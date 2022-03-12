@@ -14,7 +14,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                icon: "src/images/mor-chiraiya-logo.png",
+                icon: "src/images/mor-chiraiya-logo.webp",
             },
         },
         {

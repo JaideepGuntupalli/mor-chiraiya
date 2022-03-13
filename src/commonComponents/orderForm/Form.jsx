@@ -6,6 +6,7 @@ const Form = ({ title, isEng }) => {
         <form
             action="#"
             class="flex flex-col gap-4 md:gap-6 p-8 flex-1 font-sans"
+            id="form"
         >
             <h2
                 className={`font-bold text-[2rem] ${
@@ -19,7 +20,7 @@ const Form = ({ title, isEng }) => {
                 <Input type="email" name="email" label="Email ID" />
             </div>
             <div className="flex gap-4">
-                <Input type="number" name="pnumber" label="Phone No." />
+                <Input type="number" name="pnumber" label="Mobile No." />
                 <div class="flex flex-col gap-2 flex-1">
                     <label
                         htmlFor="quantity"

@@ -30,7 +30,7 @@ const Hero = () => {
                     </span>
                 </p>
                 <AnchorLink
-                    to="/#sparrow"
+                    to="#sparrow"
                     title="Learn More!"
                     className="self-start mt-4 ml-3 md:ml-8 p-4 px-6 font-semibold bg-[#76B947] text-black rounded-md"
                 >

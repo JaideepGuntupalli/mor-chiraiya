@@ -10,10 +10,7 @@ import coir from "../images/ingredients/coir.webp";
 
 const Order = () => {
     return (
-        <section
-            className="flex flex-col md:flex-row justify-between py-16 md:mx-8"
-            id="form"
-        >
+        <section className="flex flex-col md:flex-row justify-between py-16 md:mx-8">
             <div className="p-8 flex-1">
                 <h2 className="font-bold text-[2rem] md:text-center mb-8">
                     What will you get as part of DIY Kit?

@@ -60,21 +60,21 @@ class NavMenu extends Component {
                     } md:flex`}
                 >
                     <li>
-                        <AnchorLink to="/#home">Home</AnchorLink>
+                        <AnchorLink to="#home">Home</AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink className="md:ml-8" to="/#sparrow">
+                        <AnchorLink className="md:ml-8" to="#sparrow">
                             About Sparrows
                         </AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink className="md:ml-8" to="/#tips">
+                        <AnchorLink className="md:ml-8" to="#tips">
                             Save Sparrows
                         </AnchorLink>
                     </li>
                     <li>
                         <AnchorLink
-                            to="/#form"
+                            to="#form"
                             className="text-gray-100 p-2 px-4 md:ml-8 bg-[#76b947] rounded-md"
                         >
                             Act Now!

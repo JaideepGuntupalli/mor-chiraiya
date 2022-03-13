@@ -52,10 +52,10 @@ const Workshop = () => {
                         Come and Contribute to make our mornings chirpy again!
                     </h3>
                     <AnchorLink
-                        to="/#form"
+                        to="#form"
                         className="text-gray-100 text-3xl p-4 px-6 md:ml-8 bg-[#76b947] rounded-md"
                     >
-                        Order A Nest!
+                        Buy A Nest!
                     </AnchorLink>
                 </div>
             </div>

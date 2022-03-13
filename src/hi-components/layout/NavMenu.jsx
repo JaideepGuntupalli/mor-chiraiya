@@ -45,7 +45,7 @@ class NavMenu extends Component {
                     />
                     <button
                         onClick={this.toggleMenu}
-                        className="absolute top-5 right-0"
+                        className="absolute top-5 left-0"
                     >
                         <img
                             src={this.getImage()}
@@ -60,21 +60,21 @@ class NavMenu extends Component {
                     } md:flex`}
                 >
                     <li>
-                        <AnchorLink to="/hi/#home">घर</AnchorLink>
+                        <AnchorLink to="/hi#home">घर</AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink className="md:ml-8" to="/hi/#sparrow">
+                        <AnchorLink to="/hi#sparrow" className="md:ml-8">
                             गौरैया के बारे में
                         </AnchorLink>
                     </li>
                     <li>
-                        <AnchorLink className="md:ml-8" to="/hi/#tips">
+                        <AnchorLink to="/hi#tips" className="md:ml-8">
                             गौरैया बचाओ
                         </AnchorLink>
                     </li>
                     <li>
                         <AnchorLink
-                            to="/hi/#form"
+                            to="/hi#form"
                             className="text-gray-100 p-1 px-4 md:ml-8 bg-[#76b947] rounded-md"
                         >
                             अब सहेजें!
@@ -86,10 +86,10 @@ class NavMenu extends Component {
                                 <img
                                     src={language}
                                     alt="Language Switcher"
-                                    className="w-8 inline mr-3 md:m-0"
+                                    className="w-8 inline mr-4 md:m-0"
                                 />
                                 <p className="font-semibold text-lg md:hidden text-center inline">
-                                    भाषा:
+                                    Language
                                 </p>
                             </div>
                         </button>
@@ -100,12 +100,12 @@ class NavMenu extends Component {
                         >
                             <Link
                                 to="/"
-                                className="font-bold px-2 py-1 pl-2 font-sans"
+                                className="font-bold font-sans px-2 py-1 pl-2"
                             >
                                 English
                             </Link>
                             <Link
-                                to=""
+                                to="/hi"
                                 className="font-bold bg-[#c9b8a2] text-xl px-2 py-1 pt-2 w-1/2 md:w-full"
                             >
                                 हिंदी

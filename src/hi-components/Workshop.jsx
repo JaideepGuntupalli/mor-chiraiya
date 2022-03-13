@@ -55,7 +55,7 @@ const Workshop = () => {
                         to="#form"
                         className="text-gray-100 text-3xl p-4 px-6 md:ml-8 bg-[#76b947] rounded-md"
                     >
-                        एक घोंसला आदेश!
+                        घोंसला खरीदें!
                     </AnchorLink>
                 </div>
             </div>

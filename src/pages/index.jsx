@@ -7,7 +7,7 @@ import TipSection from "../components/TipSection";
 import logo from "../images/gov_logo.webp";
 import Order from "../components/Order";
 import Campaign from "../commonComponents/Campaign";
-import Video from "../commonComponents/video";
+import Video from "../commonComponents/Video";
 import Workshop from "../components/Workshop";
 import Social from "../commonComponents/Social";
 

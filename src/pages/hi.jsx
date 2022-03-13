@@ -3,7 +3,6 @@ import Layout from "../hi-components/layout/Layout";
 import Hero from "../hi-components/Hero";
 import CardRow from "../hi-components/CardRow";
 import MainCard from "../hi-components/MainCard";
-import TipSection from "../hi-components/TipSection";
 import logo from "../images/gov_logo.webp";
 import Order from "../hi-components/Order";
 import Campaign from "../commonComponents/Campaign";

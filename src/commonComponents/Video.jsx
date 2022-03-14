@@ -6,7 +6,7 @@ import nest from "../images/nest.webp";
 const Video = ({ heading, content }) => {
     return (
         <div
-            className="flex flex-col-reverse md:flex-row gap-10 md:gap-0 items-center justify-around py-20 bg-[#4F4F3D]"
+            className="flex flex-col-reverse md:flex-row gap-10 md:gap-0 items-center justify-around py-20 bg-[#253526]"
             id="tips"
         >
             <iframe
@@ -19,7 +19,7 @@ const Video = ({ heading, content }) => {
             />
 
             <div className="flex flex-col items-center text-center w-4/5">
-                <h3 className="font-bold text-5xl md:text-center mb-8 text-gray-300">
+                <h3 className="font-bold text-5xl md:text-center mb-8 text-yellow-400">
                     {heading}
                 </h3>
                 <div className="flex items-center justify-around w-2/3 md:w-1/3">

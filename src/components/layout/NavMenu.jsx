@@ -68,16 +68,13 @@ class NavMenu extends Component {
                     } md:flex`}
                 >
                     <li>
-                        <AnchorLink
-                            to="#home"
-                            className="hover:text-yellow-400"
-                        >
+                        <AnchorLink to="#home" className="hover:text-[#90ba92]">
                             Home
                         </AnchorLink>
                     </li>
                     <li>
                         <AnchorLink
-                            className="md:ml-8 hover:text-yellow-400"
+                            className="md:ml-8 hover:text-[#90ba92]"
                             to="#sparrow"
                         >
                             Save Sparrows
@@ -85,7 +82,7 @@ class NavMenu extends Component {
                     </li>
                     <li>
                         <AnchorLink
-                            className="md:ml-8 hover:text-yellow-400"
+                            className="md:ml-8 hover:text-[#90ba92]"
                             to="#workshop"
                         >
                             Workshops
@@ -93,7 +90,7 @@ class NavMenu extends Component {
                     </li>
                     <li>
                         <AnchorLink
-                            className="md:ml-8 hover:text-yellow-400 md:hidden xl:block"
+                            className="md:ml-8 hover:text-[#90ba92] md:hidden xl:block"
                             to="#tips"
                         >
                             About Us
@@ -102,14 +99,14 @@ class NavMenu extends Component {
                     <li>
                         <AnchorLink
                             to="#form"
-                            className="text-gray-100 p-2 px-4 md:ml-8 bg-yellow-500 rounded-md font-bold hover:bg-yellow-600"
+                            className="text-[#6d5b1c] p-2 px-4 md:ml-8 bg-yellow-400 rounded-md hover:bg-yellow-300"
                         >
                             Act Now!
                         </AnchorLink>
                     </li>
                     <li className="relative min-w-[6rem] md:mx-4">
                         <button onClick={this.toggleLang}>
-                            <div className="p-3 rounded-full hover:bg-[#00000021] flex items-center hover:text-yellow-400">
+                            <div className="p-3 rounded-full hover:bg-[#00000021] flex items-center hover:text-[#90ba92]">
                                 <img
                                     src={language}
                                     alt="Language Switcher"

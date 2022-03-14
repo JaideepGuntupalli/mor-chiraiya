@@ -9,7 +9,7 @@ const Hero = () => {
             <img
                 src={sparrow}
                 alt="Sparrow on a branch"
-                className="hidden sm:block h-[80vh] object-cover lg:h-[90vh] xl:h-max"
+                className="hidden sm:block h-[80vh] object-cover lg:h-[95vh]"
             />
             <img
                 src={sparrowm}
@@ -32,7 +32,7 @@ const Hero = () => {
                 <AnchorLink
                     to="#sparrow"
                     title="Learn More!"
-                    className="self-start mt-4 ml-3 md:ml-8 p-4 px-6 font-semibold bg-[#76B947] text-black rounded-md"
+                    className="self-start mt-4 ml-3 md:ml-8 p-3 text-xl px-6 font-semibold bg-yellow-400 text-[#6d5b1c] rounded-md hover:bg-yellow-300"
                 >
                     और अधिक जानें!
                 </AnchorLink>

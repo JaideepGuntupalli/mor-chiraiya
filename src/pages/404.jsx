@@ -6,12 +6,12 @@ import logo from "../images/mor-chiraiya-logo.webp";
 const NotFoundPage = () => {
     return (
         <main className="bg-[#F7E2C7] h-screen flex flex-col justify-center gap-10 text-center p-4">
-            <title>Not found</title>
+            <title>😔 404 | Not found</title>
             <div className="flex justify-center items-center md:gap-10 m-10">
                 <img src={logo} alt="Logo" className="w-1/3 md:w-1/12" />
                 <h2 className="font-semibold text-3xl">Mor-Chiraya</h2>
             </div>
-            <h1 className="self-center font-bold text-5xl">404</h1>
+            <h1 className="self-center font-semibold text-9xl">404</h1>
             <section className="flex flex-col md:flex-row justify-evenly items-center">
                 <div>
                     <h2 className="font-semibold text-4xl my-4">

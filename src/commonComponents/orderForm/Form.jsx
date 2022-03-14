@@ -5,7 +5,7 @@ const Form = ({ title, isEng }) => {
     return (
         <form
             action="#"
-            class="flex flex-col gap-4 md:gap-6 p-8 flex-1 font-sans"
+            className="flex flex-col gap-4 md:gap-6 p-8 flex-1 font-sans"
             id="form"
         >
             <h2
@@ -21,10 +21,10 @@ const Form = ({ title, isEng }) => {
             </div>
             <div className="flex gap-4">
                 <Input type="number" name="pnumber" label="Mobile No." />
-                <div class="flex flex-col gap-2 flex-1">
+                <div className="flex flex-col gap-2 flex-1">
                     <label
                         htmlFor="quantity"
-                        class="font-semibold text-xl md:text-2xl"
+                        className="font-semibold text-xl md:text-2xl"
                     >
                         Quantity
                     </label>
@@ -63,7 +63,7 @@ const Form = ({ title, isEng }) => {
             <input
                 type="submit"
                 value="Order it!"
-                class="bg-black px-4 py-2 rounded-md font-semibold text-2xl text-white"
+                className="bg-black px-4 py-2 rounded-md font-semibold text-2xl text-white"
             />
         </form>
     );

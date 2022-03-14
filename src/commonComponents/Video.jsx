@@ -13,9 +13,9 @@ const Video = ({ heading, content }) => {
                 className="w-5/6 md:w-3/5 md:h-64 md:ml-20 md:mr-10"
                 src="https://www.youtube-nocookie.com/embed/ScMzIvxBSi4"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
             />
 
             <div className="flex flex-col items-center text-center w-4/5">

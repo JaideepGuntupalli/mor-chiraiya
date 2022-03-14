@@ -35,12 +35,12 @@ const Footer = () => {
                     <p>Phone: 07723 - 222084</p>
                     <p>
                         Email:{" "}
-                        <Link
-                            to="mailto:mor.chiraiya@gmail.com"
+                        <a
+                            href="mailto:mor.chiraiya@gmail.com"
                             className="link link-underline link-underline-black"
                         >
                             mor.chiraiya@gmail.com
-                        </Link>
+                        </a>
                     </p>
                 </div>
             </section>

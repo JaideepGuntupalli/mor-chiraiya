@@ -4,11 +4,11 @@ import Hero from "../components/Hero";
 import CardRow from "../components/CardRow";
 import MainCard from "../components/MainCard";
 import logo from "../images/gov_logo.webp";
-import Order from "../components/Order";
 import Campaign from "../commonComponents/Campaign";
 import Video from "../commonComponents/Video";
 import Workshop from "../components/Workshop";
 import Social from "../commonComponents/Social";
+import Product from "../components/Product";
 
 const IndexPage = () => {
     return (
@@ -26,7 +26,7 @@ const IndexPage = () => {
                 heading="Learn how to easily build the nest"
                 content="Saving the sparrow is not a very difficult task. If you want, you can also help with this work, for this only you have to set up some birdhouses, wooden boxes in which the bird can make its nest near your house."
             />
-            <Order />
+            <Product />
             <Workshop />
             {/* <TipSection /> */}
             <Social />

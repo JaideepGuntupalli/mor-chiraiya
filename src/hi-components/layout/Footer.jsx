@@ -44,15 +44,6 @@ const Footer = () => {
             </section>
             <div className="flex flex-col gap-2 md:flex-row justify-evenly bg-[#08392B] px-10 py-4 text-sm text-zinc-300 text-center">
                 <p>कॉपीराइट 2022. सर्वाधिकार सुरक्षित।</p>
-                <p>
-                    <a
-                        href="https://jaideepguntupalli.com"
-                        className="link link-underline link-underline-zinc"
-                    >
-                        जयदीप गुंटुपल्ली
-                    </a>{" "}
-                    द्वारा डिजाइन और विकसित
-                </p>
             </div>
         </footer>
     );

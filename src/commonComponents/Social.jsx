@@ -5,11 +5,11 @@ import insta from "../images/instagram.webp";
 import youtube from "../images/youtube.webp";
 import twitter from "../images/twitter.webp";
 
-const Social = () => {
+const Social = ({ phrase }) => {
     return (
         <div className="m-10">
             <h3 className="font-bold text-3xl md:text-5xl text-center my-10">
-                Follow us on Socials to receive updates!
+                {phrase}
             </h3>
             <div className="flex flex-col md:flex-row justify-center gap-14 w-3/5 mx-auto md:w-auto">
                 <SocialApp

@@ -29,7 +29,7 @@ const IndexPage = () => {
             <Product />
             <Workshop />
             {/* <TipSection /> */}
-            <Social />
+            <Social phrase="Follow us on Socials to receive updates!" />
             <div className="bg-[#94C973] px-10 py-8 text-center flex items-center gap-4 justify-center md:py-4 md:text-xl">
                 <img
                     src={logo}

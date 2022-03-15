@@ -21,7 +21,7 @@ const Workshop = () => {
                         />
                         <p className="flex flex-col items-center">
                             <span className="block text-6xl font-black text-[#76B947]">
-                                10+
+                                3+
                             </span>{" "}
                             सफल कार्यशाला
                         </p>
@@ -30,7 +30,7 @@ const Workshop = () => {
                         <img src={nest} alt="Nest" className="w-1/2 md:w-2/3" />
                         <p className="flex flex-col items-center">
                             <span className="block text-6xl font-black text-[#76B947]">
-                                500+
+                                130+
                             </span>{" "}
                             सक्रिय घोंसले
                         </p>
@@ -43,7 +43,7 @@ const Workshop = () => {
                         />
                         <p className="flex flex-col items-center">
                             <span className="block text-6xl font-black text-[#76B947]">
-                                300+
+                                120+
                             </span>{" "}
                             लोगों ने भाग लिया
                         </p>

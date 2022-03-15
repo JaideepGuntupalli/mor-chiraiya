@@ -16,7 +16,7 @@ const Campaign = ({ title, content, cta, learn }) => {
                 <AnchorLink
                     to="#form"
                     title="Order Now!"
-                    className="self-start mt-2 p-4 px-6 bg-[#76B947] text-[#253526] font-black rounded-md  hover:bg-[#6faf41]"
+                    className="self-start mt-2 p-4 px-6 bg-[#253526] text-gray-200 font-bold rounded-md hover:bg-[#29422a]"
                 >
                     {cta}
                 </AnchorLink>

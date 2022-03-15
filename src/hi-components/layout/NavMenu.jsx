@@ -88,7 +88,7 @@ class NavMenu extends Component {
                             to="/hi/#workshop"
                             className="md:ml-8 hover:text-[#90ba92]"
                         >
-                            कार्यशालाओं
+                            कार्यशालाएं
                         </AnchorLink>
                     </li>
                     {/* <li>
@@ -104,7 +104,7 @@ class NavMenu extends Component {
                             to="/hi/#diy-kit"
                             className="text-[#6d5b1c] p-1 px-4 md:ml-8 bg-yellow-400 rounded-md hover:bg-yellow-300"
                         >
-                            अब सहेजें!
+                            सहयोग दें!
                         </AnchorLink>
                     </li>
                     <li className="relative min-w-[11.5rem] md:min-w-[6rem] md:mx-4">

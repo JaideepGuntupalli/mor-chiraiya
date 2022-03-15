@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import Form from "../commonComponents/orderForm/Form";
 import Ingredient from "../commonComponents/orderForm/Ingredient";
 import bamboo from "../images/ingredients/bamboo.webp";
@@ -49,8 +50,24 @@ const Order = () => {
                 </ul>
             </div>
             <Form title="तो आइये और अपना योगदान दीजिये" />
+            <input
+                type="submit"
+                value="Order it!"
+                className="bg-black px-4 py-2 rounded-md font-semibold text-2xl text-white"
+            />
+            <Link
+                to="https://rzp.io/l/55rZOa1HG0"
+                className="bg-black px-4 py-2 rounded-md font-semibold text-2xl text-white"
+            >
+                Order it!
+            </Link>
+            {/* https://rzp.io/l/55rZOa1HG0 */}
         </section>
     );
 };
+
+// We are continuously organizing workshops to conserve the sparrows. Our dedicated experts and enthusiastic volunteers are working round the clock towards the success of this initiative. A small contribution and a small effort of everyone can bring big results. To organize a workshop in your schools, colleges, offices contact us, now!!
+
+// हम गौरैयों के संरक्षण के लिए लगातार कार्यशालाओं का आयोजन कर रहे हैं। हमारे समर्पित विशेषज्ञ और उत्साही स्वयंसेवक इस पहल की सफलता के लिए लगातार काम कर रहे हैं। आपका एक छोटा सा योगदान इस प्रयास को बड़ी सफलता दिला सकता है। अपने स्कूल, कॉलेज, ऑफिस में कार्यशाला आयोजित करने के लिए संपर्क करें !!
 
 export default Order;

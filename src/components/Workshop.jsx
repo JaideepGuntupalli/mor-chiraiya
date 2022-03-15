@@ -61,7 +61,7 @@ const Workshop = () => {
                         contact us, now!!
                     </p>
                     <AnchorLink
-                        to="#form"
+                        to="#contact"
                         className="p-4 px-6 bg-[#76B947] text-[#253526] font-bold rounded-md  hover:bg-[#6faf41] text-xl"
                     >
                         CONTACT US!
@@ -73,12 +73,12 @@ const Workshop = () => {
                 <img
                     src={workshop}
                     alt="workshop collage"
-                    className="w-full object-cover"
+                    className="w-full h-screen object-cover"
                 />
                 <img
                     src={workshop}
                     alt="workshop collage"
-                    className="md:hidden w-full object-cover object-left"
+                    className="md:hidden w-full h-screen object-cover object-left"
                 />
             </div>
         </div>

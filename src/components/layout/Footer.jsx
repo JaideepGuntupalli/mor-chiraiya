@@ -1,16 +1,24 @@
 import * as React from "react";
 import morchiraiya from "../../images/mor-chiraiya-logo.webp";
+import morchiraiyalogo from "../../images/mor-chiraiya-text.svg";
 
 const Footer = () => {
     return (
         <footer className="bg-[#76B947]">
             <section className="md:flex">
                 <div className="flex p-8 px-10 gap-2 flex-col items-start md:flex-1 md:pl-20">
-                    <img
-                        src={morchiraiya}
-                        alt="Logo of the initiative Mor-Chiraiya"
-                        className="h-16 md:m-0"
-                    />
+                    <div className="flex items-center justify-center">
+                        <img
+                            src={morchiraiya}
+                            alt="Logo of the initiative Mor-Chiraiya"
+                            className="h-16 "
+                        />
+                        <img
+                            src={morchiraiyalogo}
+                            alt="Text of the initiative Mor-Chiraiya"
+                            className="ml-2 h-10 sm:h-14"
+                        />
+                    </div>
                     <p className="pt-4 text-sm">
                         It is our responsibility to make our loving bird a part
                         of our life again!!! By making the coming generation
@@ -23,7 +31,10 @@ const Footer = () => {
                         (DIY) and put them in their homes.
                     </p>
                 </div>
-                <div className="flex px-10 pb-8 gap-2 flex-col items-start text-sm md:pt-8 md:flex-1 justify-evenly">
+                <div
+                    className="flex px-10 pb-8 gap-2 flex-col items-start text-sm md:pt-8 md:flex-1 justify-evenly"
+                    id="contact"
+                >
                     <h3 className="text-base md:text-lg md:font-semibold">
                         CONTACT INFO
                     </h3>

@@ -60,7 +60,7 @@ const Workshop = () => {
                         संपर्क करें !!
                     </p>
                     <AnchorLink
-                        to="#form"
+                        to="/hi/#contact"
                         className="p-4 px-6 bg-[#76B947] text-[#253526] font-bold rounded-md  hover:bg-[#6faf41] text-2xl"
                     >
                         संपर्क करें!
@@ -72,12 +72,12 @@ const Workshop = () => {
                 <img
                     src={workshop}
                     alt="workshop collage"
-                    className="w-full object-cover"
+                    className="w-full h-screen object-cover"
                 />
                 <img
                     src={workshop}
                     alt="workshop collage"
-                    className="md:hidden w-full object-cover object-left"
+                    className="md:hidden w-full h-screen object-cover object-left"
                 />
             </div>
         </div>

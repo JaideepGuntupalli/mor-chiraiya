@@ -32,7 +32,7 @@ const Hero = () => {
                 <AnchorLink
                     to="/#sparrow"
                     title="Learn More!"
-                    className="self-start mt-4 ml-3 md:ml-8 p-4 px-6 font-semibold bg-yellow-400 text-[#6d5b1c] rounded-md hover:bg-yellow-300"
+                    className="self-start mt-4 ml-3 md:ml-8 p-4 px-6 font-black text-xl bg-yellow-400 text-[#6d5b1c] rounded-md hover:bg-yellow-300"
                 >
                     LEARN MORE!
                 </AnchorLink>

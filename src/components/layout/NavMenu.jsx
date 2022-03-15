@@ -98,8 +98,8 @@ class NavMenu extends Component {
                     </li>
                     <li>
                         <AnchorLink
-                            to="#form"
-                            className="text-[#6d5b1c] p-2 px-4 md:ml-8 bg-yellow-400 rounded-md hover:bg-yellow-300"
+                            to="#diy-kit"
+                            className="text-[#6d5b1c] p-2 px-4 md:ml-8 bg-yellow-400 rounded-md hover:bg-yellow-300 font-black"
                         >
                             Act Now!
                         </AnchorLink>

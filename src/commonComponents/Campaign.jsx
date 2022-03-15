@@ -11,19 +11,19 @@ const Campaign = ({ title, content, cta, learn }) => {
                 className=" w-1/2 md:w-1/5 md:m-8 md:ml-16"
             />
             <div className="flex flex-col gap-4  md:m-8">
-                <h2 className="font-semibold text-2xl md:text-4xl">{title}</h2>
+                <h2 className="text-2xl md:text-4xl">{title}</h2>
                 <p className="md:text-lg">{content}</p>
                 <AnchorLink
                     to="#form"
                     title="Order Now!"
-                    className="self-start mt-2 p-4 bg-[#76B947] text-[#253526] font-semibold rounded-md  hover:bg-[#6faf41]"
+                    className="self-start mt-2 p-4 px-6 bg-[#76B947] text-[#253526] font-black rounded-md  hover:bg-[#6faf41]"
                 >
                     {cta}
                 </AnchorLink>
                 <AnchorLink
                     to="#people"
                     title="Order Now!"
-                    className="self-start text-[#253526] font-semibold rounded-md underline"
+                    className="self-start text-[#253526] font-bold rounded-md underline"
                 >
                     {learn}
                 </AnchorLink>

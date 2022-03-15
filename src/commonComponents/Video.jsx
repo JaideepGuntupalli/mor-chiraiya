@@ -19,7 +19,7 @@ const Video = ({ heading, content }) => {
             />
 
             <div className="flex flex-col items-center text-center w-4/5">
-                <h3 className="font-bold text-5xl md:text-center mb-8 text-yellow-400 w-5/6">
+                <h3 className="text-5xl md:text-center mb-8 text-yellow-400 w-5/6">
                     {heading}
                 </h3>
                 <div className="flex items-center justify-around w-2/3 md:w-1/3">

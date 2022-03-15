@@ -68,13 +68,16 @@ class NavMenu extends Component {
                     } md:flex`}
                 >
                     <li>
-                        <AnchorLink to="#home" className="hover:text-[#90ba92]">
+                        <AnchorLink
+                            to="/hi/#home"
+                            className="hover:text-[#90ba92]"
+                        >
                             घर
                         </AnchorLink>
                     </li>
                     <li>
                         <AnchorLink
-                            to="#sparrow"
+                            to="/hi/#sparrow"
                             className="md:ml-8 hover:text-[#90ba92]"
                         >
                             गौरैया बचाओ
@@ -82,7 +85,7 @@ class NavMenu extends Component {
                     </li>
                     <li>
                         <AnchorLink
-                            to="#sparrow"
+                            to="/hi/#workshop"
                             className="md:ml-8 hover:text-[#90ba92]"
                         >
                             कार्यशालाओं
@@ -90,7 +93,7 @@ class NavMenu extends Component {
                     </li>
                     <li>
                         <AnchorLink
-                            to="#tips"
+                            to="/hi/#tips"
                             className="md:ml-8 hover:text-[#90ba92]"
                         >
                             हमारे बारे में
@@ -98,7 +101,7 @@ class NavMenu extends Component {
                     </li>
                     <li>
                         <AnchorLink
-                            to="#form"
+                            to="/hi/#diy-kit"
                             className="text-[#6d5b1c] p-1 px-4 md:ml-8 bg-yellow-400 rounded-md hover:bg-yellow-300"
                         >
                             अब सहेजें!

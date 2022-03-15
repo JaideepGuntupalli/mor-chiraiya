@@ -5,7 +5,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ["Poppins", ...defaultTheme.fontFamily.sans],
+                sans: ["Lato", ...defaultTheme.fontFamily.sans],
                 serif: ["Vesper Libre", ...defaultTheme.fontFamily.serif],
             },
         },

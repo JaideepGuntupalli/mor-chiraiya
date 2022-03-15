@@ -6,7 +6,7 @@ import gum from "../images/ingredients/gum.webp";
 import yarn from "../images/ingredients/yarn.webp";
 import jute from "../images/ingredients/jute.webp";
 import coir from "../images/ingredients/coir.webp";
-import bag from "../images/shipping-bag.png";
+import bag from "../images/shipping-bag.webp";
 import { toast } from "wc-toast";
 
 const Product = () => {

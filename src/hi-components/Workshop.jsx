@@ -1,8 +1,8 @@
 import * as React from "react";
 import workshop from "../images/workshop.webp";
-import workshopIcon from "../images/workshop.png";
-import people from "../images/people.png";
-import nest from "../images/nest.png";
+import workshopIcon from "../images/workshop_graphic.webp";
+import people from "../images/people_graphic.webp";
+import nest from "../images/nest_graphic.webp";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const Workshop = () => {

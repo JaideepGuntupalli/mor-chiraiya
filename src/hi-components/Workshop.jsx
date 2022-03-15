@@ -12,12 +12,12 @@ const Workshop = () => {
             id="workshop"
         >
             <div className="flex flex-col items-center gap-20 md:gap-12 justify-center absolute text-white font-semibold text-2xl">
-                <div className="flex flex-col gap-16 md:gap-0 md:flex-row justify-center">
-                    <div className="flex flex-col items-center gap-4 w-1/4">
+                <div className="flex flex-col gap-16 md:gap-0 md:flex-row justify-center items-center">
+                    <div className="flex flex-col items-center gap-4 w-2/3 md:w-1/4">
                         <img
                             src={workshopIcon}
                             alt="Workshop Icon"
-                            className="w-1/3 md:w-2/3"
+                            className="w-2/3"
                         />
                         <p className="flex flex-col items-center">
                             <span className="block text-6xl font-black text-[#76B947]">
@@ -26,8 +26,8 @@ const Workshop = () => {
                             सफल कार्यशाला
                         </p>
                     </div>
-                    <div className="flex flex-col items-center gap-4 w-1/4">
-                        <img src={nest} alt="Nest" className="w-1/3 md:w-2/3" />
+                    <div className="flex flex-col items-center gap-4 w-2/3 md:w-1/4">
+                        <img src={nest} alt="Nest" className="w-2/3" />
                         <p className="flex flex-col items-center">
                             <span className="block text-6xl font-black text-[#76B947]">
                                 500+
@@ -35,12 +35,8 @@ const Workshop = () => {
                             सक्रिय घोंसले
                         </p>
                     </div>
-                    <div className="flex flex-col items-center gap-4 w-1/4">
-                        <img
-                            src={people}
-                            alt="People"
-                            className="w-1/3 md:w-2/3"
-                        />
+                    <div className="flex flex-col items-center gap-4 w-2/3 md:w-1/4">
+                        <img src={people} alt="People" className="w-2/3" />
                         <p className="flex flex-col items-center">
                             <span className="block text-6xl font-black text-[#76B947]">
                                 300+
@@ -51,7 +47,7 @@ const Workshop = () => {
                 </div>
                 <div className=" h-1 w-4/5 bg-gray-300" />
                 <div className="flex justify-center flex-col items-center gap-6">
-                    <p className="text-2xl w-3/5 text-center leading-snug font-medium">
+                    <p className="text-lg md:text-2xl w-3/5 text-center leading-snug font-medium">
                         हम गौरैयों के संरक्षण के लिए लगातार कार्यशालाओं का आयोजन
                         कर रहे हैं। हमारे समर्पित विशेषज्ञ और उत्साही स्वयंसेवक
                         इस पहल की सफलता के लिए लगातार काम कर रहे हैं। आपका एक

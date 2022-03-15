@@ -22,19 +22,26 @@ const Product = () => {
     };
 
     return (
-        <div className="flex items-center justify-center my-24" id="diy-kit">
-            <div className="w-1/2 px-8 ">
-                <h3 className="text-6xl">मोर-चिरैया DIY नेस्ट किट</h3>
+        <div
+            className="flex flex-col-reverse gap-14 md:flex-row items-center justify-center my-24"
+            id="diy-kit"
+        >
+            <div className="w-full md:w-1/2 px-8 ">
+                <h3 className="text-4xl md:text-6xl">
+                    मोर-चिरैया DIY नेस्ट किट
+                </h3>
                 <div className="my-12 flex gap-2 text-[#253526]">
-                    <p className="text-3xl">₹</p>
-                    <p className="text-5xl">99</p>
-                    <p className="text-2xl self-end text-[#6d5b1c]">/ किट</p>
+                    <p className="text-2xl md:text-3xl">₹</p>
+                    <p className="text-4xl md:text-5xl">99</p>
+                    <p className="text-xl md:text-2xl self-end text-[#6d5b1c]">
+                        / किट
+                    </p>
                 </div>
-                <div className="flex-1 mb-16">
+                <div className="flex-1 mb-6 md:mb-16">
                     <h2 className="text-2xl mb-8">
                         DIY किट के हिस्से के रूप में आपको क्या मिलेगा?
                     </h2>
-                    <ul className="flex flex-row justify-evenly">
+                    <ul className="flex flex-col md:flex-row justify-evenly gap-6 md:gap-0">
                         <div className="flex flex-col justify-evenly gap-6 mx-8">
                             <Ingredient
                                 imagesrc={bamboo}
@@ -71,20 +78,26 @@ const Product = () => {
                         </div>
                     </ul>
                 </div>
-                <a
-                    href="https://rzp.io/l/55rZOa1HG0"
-                    className="text-[#6d5b1c] p-4 px-8 bg-yellow-400 rounded-md hover:bg-yellow-300 text-2xl font-bold"
-                >
-                    अभी खरीदें
-                </a>
-                <button
-                    onClick={copyLink}
-                    className="text-[#253526] mx-8 hover:text-[#29422a] text-xl font-bold underline"
-                >
-                    दोस्तों को बताओ
-                </button>
+                <div className="flex flex-col md:flex-row items-center gap-4 md:gap-0">
+                    <a
+                        href="https://rzp.io/l/55rZOa1HG0"
+                        className="text-[#6d5b1c] p-4 px-8 bg-yellow-400 rounded-md hover:bg-yellow-300 text-2xl font-bold"
+                    >
+                        अभी खरीदें
+                    </a>
+                    <button
+                        onClick={copyLink}
+                        className="text-[#253526] mx-8 hover:text-[#29422a] text-xl font-bold underline"
+                    >
+                        दोस्तों को बताओ
+                    </button>
+                </div>
             </div>
-            <img src={bag} alt="shipping bag" className="w-2/5" />
+            <img
+                src={bag}
+                alt="shipping bag"
+                className="w-5/6 md:w-2/5 rounded-lg"
+            />
         </div>
     );
 };

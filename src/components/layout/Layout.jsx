@@ -5,6 +5,7 @@ import Header from "./Header";
 const Layout = ({ pageTitle, children }) => {
     return (
         <div>
+            <wc-toast position="bottom-center"></wc-toast>
             <title>{pageTitle}</title>
             <Header />
             <main className="bg-[#fffdf1]">{children}</main>

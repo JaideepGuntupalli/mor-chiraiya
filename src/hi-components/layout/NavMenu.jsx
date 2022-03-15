@@ -121,13 +121,13 @@ class NavMenu extends Component {
                             </div>
                         </button>
                         <div
-                            className={`absolute top-16 opacity-95 flex flex-row md:flex-col border-2 text-center border-yellow-700 mx-auto w-full ${
+                            className={`absolute top-16 opacity-95 flex md:flex-col border-2 text-center border-yellow-700 mx-auto w-full ${
                                 isLang ? "hidden" : ""
-                            }`}
+                            } justify-center`}
                         >
                             <Link
                                 to="/"
-                                className="font-bold font-sans bg-yellow-500 px-2 py-1 pl-2"
+                                className="font-bold font-sans bg-yellow-500 px-2 py-1 pl-2 w-1/2"
                             >
                                 English
                             </Link>

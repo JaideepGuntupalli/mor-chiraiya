@@ -91,14 +91,14 @@ class NavMenu extends Component {
                             कार्यशालाओं
                         </AnchorLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <AnchorLink
                             to="/hi/#tips"
                             className="md:ml-8 hover:text-[#90ba92]"
                         >
                             हमारे बारे में
                         </AnchorLink>
-                    </li>
+                    </li> */}
                     <li>
                         <AnchorLink
                             to="/hi/#diy-kit"

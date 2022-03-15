@@ -6,7 +6,7 @@ import MainCard from "../hi-components/MainCard";
 import logo from "../images/gov_logo.webp";
 import Product from "../hi-components/Product";
 import Campaign from "../commonComponents/Campaign";
-import Video from "../commonComponents/Video";
+// import Video from "../commonComponents/Video";
 import Workshop from "../hi-components/Workshop";
 import Social from "../commonComponents/Social";
 
@@ -22,10 +22,10 @@ const Hindi = () => {
             />
             <CardRow />
             <MainCard />
-            <Video
+            {/* <Video
                 heading="आसानी से घोंसले बनाना सीखें"
                 content="गौरैया को बचाना कोई बहुत बड़ा मुश्किल काम नहीं है, अगर आप चाहे तो आप भी इस काम में मदद कर सकते हैं, इसके लिए सिर्फ आपको अपने घर के पास कुछ बर्ड हाउस, लकड़ी के बने हुए डिब्बे जिनमें चिड़िया अपना घोंसला बना सके स्थापित करना होगा|"
-            />
+            /> */}
             <Product />
             <Workshop />
             <Social />

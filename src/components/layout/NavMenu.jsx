@@ -88,14 +88,14 @@ class NavMenu extends Component {
                             Workshops
                         </AnchorLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <AnchorLink
                             className="md:ml-8 hover:text-[#90ba92] md:hidden xl:block"
                             to="#tips"
                         >
                             About Us
                         </AnchorLink>
-                    </li>
+                    </li> */}
                     <li>
                         <AnchorLink
                             to="#diy-kit"

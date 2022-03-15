@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Link } from "gatsby";
 import morchiraiya from "../../images/mor-chiraiya-logo.webp";
 
 const Footer = () => {

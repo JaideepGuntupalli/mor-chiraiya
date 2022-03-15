@@ -23,14 +23,15 @@ const Product = () => {
 
     return (
         <div
-            className="flex flex-col-reverse gap-14 md:flex-row items-center justify-center my-24"
+            className="flex flex-col-reverse gap-14 md:gap-0 md:flex-row items-center justify-center my-24"
             id="diy-kit"
         >
             <div className="w-full md:w-1/2 px-8 ">
-                <h3 className="text-4xl md:text-6xl">
-                    Mor-Chiraiya DIY Nest Kit
-                </h3>
-                <div className="my-12 flex gap-2 text-[#253526]">
+                <h3 className="text-4xl md:text-6xl">DIY Nest Kit</h3>
+                <p className="ml-2 text-xl mt-4">
+                    Create your own nest for your loved birds
+                </p>
+                <div className="mb-12 mt-8 flex gap-2 text-[#253526]">
                     <p className="text-2xl md:text-3xl">₹</p>
                     <p className="text-4xl md:text-5xl">99</p>
                     <p className="text-xl md:text-2xl self-end text-[#6d5b1c]">
@@ -89,7 +90,7 @@ const Product = () => {
                         onClick={copyLink}
                         className="text-[#253526] mx-8 hover:text-[#29422a] text-xl font-bold underline"
                     >
-                        Share about Kit
+                        Share
                     </button>
                 </div>
             </div>

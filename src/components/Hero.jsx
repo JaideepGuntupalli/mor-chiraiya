@@ -9,12 +9,12 @@ const Hero = () => {
             <img
                 src={sparrow}
                 alt="Sparrow on a branch"
-                className="hidden sm:block h-[80vh] object-cover lg:h-[95vh]"
+                className="hidden sm:block w-full h-[80vh] object-cover lg:h-[95vh]"
             />
             <img
                 src={sparrowm}
                 alt="Sparrow on a branch"
-                className="object-cover min-h-[90vh] h-max sm:hidden"
+                className="object-cover min-h-[90vh] w-full h-max sm:hidden"
             />
             <div className="absolute flex flex-col top-8 sm:top-20 md:top-30 lg:top-36 left-3 md:left-16">
                 <p className="p-4 sm:p-4 md:p-8 text-white text-3xl md:text-5xl text-left font-light">

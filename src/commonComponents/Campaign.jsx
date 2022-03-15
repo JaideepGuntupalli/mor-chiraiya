@@ -20,13 +20,13 @@ const Campaign = ({ title, content, cta, learn }) => {
                 >
                     {cta}
                 </AnchorLink>
-                <AnchorLink
+                {/* <AnchorLink
                     to="#people"
                     title="Order Now!"
                     className="self-start text-[#253526] font-bold rounded-md underline"
                 >
                     {learn}
-                </AnchorLink>
+                </AnchorLink> */}
             </div>
         </section>
     );

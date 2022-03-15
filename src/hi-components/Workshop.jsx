@@ -72,12 +72,12 @@ const Workshop = () => {
                 <img
                     src={workshop}
                     alt="workshop collage"
-                    className="h-screen object-cover"
+                    className="w-full object-cover"
                 />
                 <img
                     src={workshop}
                     alt="workshop collage"
-                    className="md:hidden h-screen object-cover object-left"
+                    className="md:hidden w-full object-cover object-left"
                 />
             </div>
         </div>

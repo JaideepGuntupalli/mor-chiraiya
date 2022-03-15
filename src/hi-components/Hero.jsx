@@ -9,7 +9,7 @@ const Hero = () => {
             <img
                 src={sparrow}
                 alt="Sparrow on a branch"
-                className="hidden sm:block h-[80vh] object-cover lg:h-[95vh]"
+                className="hidden sm:block h-[80vh] w-full object-cover lg:h-[95vh]"
             />
             <img
                 src={sparrowm}
@@ -18,7 +18,7 @@ const Hero = () => {
             />
             <div className="absolute flex flex-col top-8 sm:top-20 md:top-30 lg:top-36 left-3 md:left-16">
                 <p className="p-4 sm:p-4 md:p-8 text-white text-3xl md:text-5xl text-left font-light">
-                    साथ में,
+                    साथ मिलकर,
                     <span className="block my-6 text-4xl md:text-6xl xl:text-8xl">
                         हम बचा सकते हैं
                     </span>
@@ -26,7 +26,7 @@ const Hero = () => {
                         गौरैयों
                     </span>
                     <span className="block text-2xl md:text-3xl mt-8">
-                        उन्हें फीका न पड़ने दें!
+                        उन्हें कम ना होने दें
                     </span>
                 </p>
                 <AnchorLink

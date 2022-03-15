@@ -27,10 +27,11 @@ const Product = () => {
             id="diy-kit"
         >
             <div className="w-full md:w-1/2 px-8 ">
-                <h3 className="text-4xl md:text-6xl">
-                    मोर-चिरैया DIY नेस्ट किट
-                </h3>
-                <div className="my-12 flex gap-2 text-[#253526]">
+                <h3 className="text-4xl md:text-6xl">DIY नेस्ट किट</h3>
+                <p className="ml-2 text-xl mt-4">
+                    अपने प्रिय पक्षियों के लिए अपना घोंसला बनाएं
+                </p>
+                <div className="mb-12 mt-8 flex gap-2 text-[#253526]">
                     <p className="text-2xl md:text-3xl">₹</p>
                     <p className="text-4xl md:text-5xl">99</p>
                     <p className="text-xl md:text-2xl self-end text-[#6d5b1c]">

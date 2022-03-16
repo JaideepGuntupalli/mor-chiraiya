@@ -28,7 +28,7 @@ const Social = ({ phrase }) => {
                     name="Facebook"
                 />
                 <SocialApp
-                    url="https://www.youtube.com"
+                    url="https://www.youtube.com/channel/UCdlRIN4o5icbwhMBy1seVnw"
                     img={youtube}
                     name="Youtube"
                 />

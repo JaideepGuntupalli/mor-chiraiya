@@ -23,10 +23,10 @@ const Product = () => {
 
     return (
         <div
-            className="flex flex-col-reverse gap-14 md:flex-row items-center justify-center my-20"
+            className="flex flex-col-reverse gap-14 md:flex-row items-center justify-center mt-8 mb-20"
             id="diy-kit"
         >
-            <div className="w-full md:w-1/2 px-8 ">
+            <div className="w-full md:w-1/2 px-8 mt-20">
                 <h3 className="text-4xl md:text-6xl">DIY नेस्ट किट</h3>
                 <p className="ml-2 text-xl mt-4">
                     अपने प्रिय पक्षियों के लिए अपना घोंसला बनाएं

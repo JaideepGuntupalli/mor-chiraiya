@@ -24,5 +24,11 @@ module.exports = {
             },
         },
         "gatsby-plugin-postcss",
+        {
+            resolve: `gatsby-plugin-minify`,
+            options: {
+                minifyCSS: false,
+            },
+        },
     ],
 };

@@ -2,10 +2,10 @@ import * as React from "react";
 import Ingredient from "../commonComponents/orderForm/Ingredient";
 import bamboo from "../images/ingredients/bamboo.webp";
 import bangles from "../images/ingredients/bangles.webp";
-import gum from "../images/ingredients/gum.webp";
+import ring from "../images/ingredients/rings.webp";
 import yarn from "../images/ingredients/yarn.webp";
 import jute from "../images/ingredients/jute.webp";
-import coir from "../images/ingredients/coir.webp";
+import juteFabric from "../images/ingredients/jute-fabric.webp";
 import bag from "../images/shipping-bag.webp";
 import { toast } from "wc-toast";
 
@@ -38,14 +38,14 @@ const Product = () => {
                     <ul className="flex flex-col md:flex-row justify-evenly gap-6 md:gap-0">
                         <div className="flex flex-col justify-evenly gap-6 mx-8">
                             <Ingredient
-                                imagesrc={bamboo}
+                                imagesrc={ring}
                                 altText="Bamboo"
                                 name="बांस के 5 रिंग"
                             />
                             <Ingredient
                                 imagesrc={bangles}
                                 altText="Bangles"
-                                name="कांच की 1 चूड़ी"
+                                name="कांच की 1 चूड़ी/छोटी बांस की अंगूठी"
                             />
                             <Ingredient
                                 imagesrc={yarn}
@@ -55,19 +55,19 @@ const Product = () => {
                         </div>
                         <div className="flex flex-col justify-evenly gap-6 mx-8">
                             <Ingredient
+                                imagesrc={bamboo}
+                                altText="bamboo Stick"
+                                name="1 बांस की छड़ी"
+                            />
+                            <Ingredient
                                 imagesrc={jute}
                                 altText="Jute"
-                                name="जूट का टुकड़ा"
+                                name="जूट की रस्सी का एक लंबा टुकड़ा"
                             />
                             <Ingredient
-                                imagesrc={gum}
-                                altText="gum"
-                                name="गोंद / फेविकोल "
-                            />
-                            <Ingredient
-                                imagesrc={coir}
-                                altText="Coir"
-                                name="नारियल-जटा / कोईर"
+                                imagesrc={juteFabric}
+                                altText="Jute Fabric"
+                                name="जूट के कपड़े का एक टुकड़ा"
                             />
                         </div>
                     </ul>

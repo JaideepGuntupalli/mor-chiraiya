@@ -5,6 +5,10 @@ import nest from "../images/nest_graphic.webp";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const Workshop = () => {
+    const workshop = 5;
+    const nests = 300;
+    const participants = 500;
+
     return (
         <div
             className="flex flex-col items-center gap-16 md:gap-12 justify-center text-white font-semibold text-2xl py-24"
@@ -19,7 +23,7 @@ const Workshop = () => {
                     />
                     <p className="flex flex-col items-center">
                         <span className="block text-6xl font-black text-[#76B947]">
-                            3+
+                            {workshop}+
                         </span>{" "}
                         सफल कार्यशाला
                     </p>
@@ -28,7 +32,7 @@ const Workshop = () => {
                     <img src={nest} alt="Nest" className="w-1/2 md:w-2/3" />
                     <p className="flex flex-col items-center">
                         <span className="block text-6xl font-black text-[#76B947]">
-                            130+
+                            {nests}+
                         </span>{" "}
                         सक्रिय घोंसले
                     </p>
@@ -37,7 +41,7 @@ const Workshop = () => {
                     <img src={people} alt="People" className="w-1/2 md:w-2/3" />
                     <p className="flex flex-col items-center">
                         <span className="block text-6xl font-black text-[#76B947]">
-                            120+
+                            {participants}+
                         </span>{" "}
                         लोगों ने भाग लिया
                     </p>

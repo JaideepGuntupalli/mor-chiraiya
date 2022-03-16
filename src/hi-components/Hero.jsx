@@ -23,7 +23,7 @@ const Hero = () => {
                         हम बचा सकते हैं
                     </span>
                     <span className="text-6xl md:text-[5.25rem] font-bold">
-                        गौरैयों
+                        गौरैया
                     </span>
                     <span className="block text-2xl md:text-3xl mt-8">
                         उन्हें कम ना होने दें

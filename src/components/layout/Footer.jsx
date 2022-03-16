@@ -28,7 +28,7 @@ const Footer = () => {
                         nests for birds using eco-friendly materials, in which
                         citizens and especially students will be able to make
                         nests with their own hands according to DO IT YOURSELF
-                        (DIY) and put them in their homes.
+                        (DIY) Kit and put them in their homes.
                     </p>
                 </div>
                 <div

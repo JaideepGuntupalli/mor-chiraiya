@@ -127,7 +127,7 @@ class NavMenu extends Component {
                         >
                             <Link
                                 to="/"
-                                className="font-bold font-sans bg-yellow-500 px-2 py-1 pl-2 w-1/2"
+                                className="font-bold font-sans bg-yellow-500 px-2 py-1 pl-2 w-1/2 md:w-full"
                             >
                                 English
                             </Link>

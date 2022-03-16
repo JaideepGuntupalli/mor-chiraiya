@@ -24,12 +24,28 @@ const CardRow = () => {
                 content="गौरैया मनुष्य आबादी के साथ पूरी तरह से जुड़ी हुई हैं | यह मानव के आसपास ही रहना पसंद करती हैं, जिससे कि इसे खाना और आश्रय दोनों मिल जाते हैं| गौरैया मुख्य रूप से दाने और बीज खाना पसंद करती हैं | यह सर्वाहारी होती हैं तथा कीट पतंगे फल इत्यादि भी खाती हैं|"
             />
 
-            <BrownCard
-                cardTitle="गौरैया कम होती जा रही है"
-                imagesrc={decrease}
-                alt="decrease"
-                content="पिछले पांच वर्षों में ही गौरैया की आबादी 60% से भी कम हो गई है | इसका मुख्य कारण मनुष्य की गतिविधियां ही हैं| इसे इंटरनेशनल यूनियन फॉर कंजर्वेशन ऑफ नेचर संस्था ने अपनी रेड लिस्ट में शामिल किया है, जो कि संकटग्रस्त प्रजातियों की लिस्ट है| "
-            />
+            <div className="w-5/6 bg-[#3F3221] p-6 text-center md:mx-4">
+                <img
+                    src={decrease}
+                    alt="decrease"
+                    className="invert-[.75] w-1/3 mx-auto my-4 md:my-8"
+                />
+                <h2 className="text-2xl mb-4 text-[#76B947]">
+                    गौरैया कम होती जा रही है
+                </h2>
+                <p className="text-[#909090] text-sm leading-6 w-11/12 mx-auto my-4">
+                    पिछले पांच वर्षों में ही गौरैया की आबादी{" "}
+                    <a
+                        href="https://m.timesofindia.com/city/bareilly/world-sparrow-day-scientific-study-on-sharp-decline-in-sparrow-population-urgently-needed-in-india-says-bnhs-expert/articleshow/81608021.cms#:~:text=A%20local%20estimation%20of%20sparrow,as%20against%2011%2C675%20in%202019"
+                        className="underline"
+                    >
+                        80% से भी कम हो गई है
+                    </a>{" "}
+                    | इसका मुख्य कारण मनुष्य की गतिविधियां ही हैं| इसे इंटरनेशनल
+                    यूनियन फॉर कंजर्वेशन ऑफ नेचर संस्था ने अपनी रेड लिस्ट में
+                    शामिल किया है, जो कि संकटग्रस्त प्रजातियों की लिस्ट है|
+                </p>
+            </div>
         </section>
     );
 };

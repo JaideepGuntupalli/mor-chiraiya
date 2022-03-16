@@ -2,10 +2,10 @@ import * as React from "react";
 import Ingredient from "../commonComponents/orderForm/Ingredient";
 import bamboo from "../images/ingredients/bamboo.webp";
 import bangles from "../images/ingredients/bangles.webp";
-import gum from "../images/ingredients/gum.webp";
+import ring from "../images/ingredients/rings.webp";
 import yarn from "../images/ingredients/yarn.webp";
 import jute from "../images/ingredients/jute.webp";
-import coir from "../images/ingredients/coir.webp";
+import juteFabric from "../images/ingredients/jute-fabric.webp";
 import bag from "../images/shipping-bag.webp";
 import { toast } from "wc-toast";
 
@@ -33,19 +33,19 @@ const Product = () => {
                 </p>
                 <div className="flex-1 mt-12 mb-6 md:mb-16">
                     <h2 className="text-2xl mb-8">
-                        What will you get as part of DIY Kit?
+                        What will you get as a part of the DIY kit?
                     </h2>
                     <ul className="flex flex-col md:flex-row justify-evenly gap-6 md:gap-0">
                         <div className="flex flex-col justify-evenly gap-6 mx-8">
                             <Ingredient
-                                imagesrc={bamboo}
+                                imagesrc={ring}
                                 altText="Bamboo"
                                 name="5 Rings of Bamboo"
                             />
                             <Ingredient
                                 imagesrc={bangles}
                                 altText="Bangles"
-                                name="1 Glass Bangle"
+                                name="1 Glass Bangle/Small Bamboo ring"
                             />
                             <Ingredient
                                 imagesrc={yarn}
@@ -55,19 +55,19 @@ const Product = () => {
                         </div>
                         <div className="flex flex-col justify-evenly gap-6 mx-8">
                             <Ingredient
+                                imagesrc={bamboo}
+                                altText="bamboo Stick"
+                                name="1 Bamboo Stick"
+                            />
+                            <Ingredient
                                 imagesrc={jute}
                                 altText="Jute"
-                                name="Piece of Jute"
+                                name="A long piece of Jute Rope"
                             />
                             <Ingredient
-                                imagesrc={gum}
-                                altText="gum"
-                                name="Gum / Fevicol"
-                            />
-                            <Ingredient
-                                imagesrc={coir}
-                                altText="Coir"
-                                name="Coir"
+                                imagesrc={juteFabric}
+                                altText="Jute Fabric"
+                                name="A piece of Jute fabric"
                             />
                         </div>
                     </ul>

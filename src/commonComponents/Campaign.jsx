@@ -2,7 +2,15 @@ import * as React from "react";
 import logo from "../images/mor-chiraiya-logo.webp";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-const Campaign = ({ title, content, cta, learn }) => {
+const Campaign = ({ title, content, cta, lang }) => {
+    const link = () => {
+        if (lang === "eng") {
+            return "#diy-kit";
+        } else {
+            return "/hi/#diy-kit";
+        }
+    };
+
     return (
         <section className="flex flex-col items-center gap-8 p-8 md:flex-row bg-yellow-500">
             <img
@@ -14,7 +22,7 @@ const Campaign = ({ title, content, cta, learn }) => {
                 <h2 className="text-2xl md:text-4xl">{title}</h2>
                 <p className="md:text-lg">{content}</p>
                 <AnchorLink
-                    to="#form"
+                    to={link()}
                     title="Order Now!"
                     className="self-start mt-2 p-4 px-6 bg-[#253526] text-gray-200 font-bold rounded-md hover:bg-[#29422a]"
                 >

@@ -41,3 +41,10 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+#workshop {
+    background: url("./../images/workshop.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

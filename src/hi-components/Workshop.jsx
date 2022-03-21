@@ -2,7 +2,6 @@ import * as React from "react";
 import workshopIcon from "../images/workshop_graphic.webp";
 import people from "../images/people_graphic.webp";
 import nest from "../images/nest_graphic.webp";
-import { AnchorLink } from "gatsby-plugin-anchor-links";
 import data from "../data";
 
 const Workshop = () => {
@@ -43,22 +42,6 @@ const Workshop = () => {
                         लोगों ने भाग लिया
                     </p>
                 </div>
-            </div>
-            <div className=" h-1 w-4/5 bg-gray-300" />
-            <div className="flex justify-center flex-col items-center gap-12">
-                <p className="text-lg md:text-2xl w-4/5 md:w-3/5 text-center leading-snug font-medium">
-                    हम गौरैयों के संरक्षण के लिए लगातार कार्यशालाओं का आयोजन कर
-                    रहे हैं। हमारे समर्पित विशेषज्ञ और उत्साही स्वयंसेवक इस पहल
-                    की सफलता के लिए लगातार काम कर रहे हैं। आपका एक छोटा सा
-                    योगदान इस प्रयास को बड़ी सफलता दिला सकता है। अपने स्कूल,
-                    कॉलेज, ऑफिस में कार्यशाला आयोजित करने के लिए संपर्क करें !!
-                </p>
-                <AnchorLink
-                    to="/hi/#contact"
-                    className="p-4 px-6 bg-[#76B947] text-[#253526] font-bold rounded-md  hover:bg-[#6faf41] text-2xl"
-                >
-                    संपर्क करें!
-                </AnchorLink>
             </div>
         </div>
     );

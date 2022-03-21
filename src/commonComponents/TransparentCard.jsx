@@ -1,5 +1,4 @@
 import * as React from "react";
-import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const TransparentCard = ({ title, content, cta, link }) => {
     return (
@@ -10,13 +9,12 @@ const TransparentCard = ({ title, content, cta, link }) => {
                 </h2>
                 <p className="py-4 pb-12">{content}</p>
             </div>
-            <AnchorLink
-                to={link}
-                title={cta}
+            <a
+                href="https://rzp.io/l/55rZOa1HG0"
                 className="p-4 px-6 bg-[#253526] text-gray-200 font-bold rounded-md hover:bg-[#29422a] self-start"
             >
                 {cta}
-            </AnchorLink>
+            </a>
         </div>
     );
 };

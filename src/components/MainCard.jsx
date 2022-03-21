@@ -5,7 +5,7 @@ const MainCard = () => {
     return (
         <section className="maincard py-8 flex flex-col gap-8 md:flex-row md:px-8">
             <TransparentCard
-                title="Why sparrow's habitat is disappearing?"
+                title="Why is sparrow's habitat disappearing?"
                 content="Sparrow likes to be around humans. It builds its nest in and around man's house. Earlier our houses were made of mud, wood, etc., in which sparrows could easily build it's nests. At present houses are made of cement. It has become very difficult for sparrows to nest in cement walls, and cement does not protect sparrows from heat and cold. Along with cities, pucca and multi-story buildings have started to be built in villages, due to which sparrow is finding it difficult to build it's nest. These are the conditions which is resulting in decline of sparrow habitat."
                 cta="ACT NOW!"
                 link="#diy-kit"

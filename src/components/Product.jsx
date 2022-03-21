@@ -77,7 +77,7 @@ const Product = () => {
                         href="https://rzp.io/l/55rZOa1HG0"
                         className="text-[#6d5b1c] p-4 px-8 bg-yellow-400 rounded-md hover:bg-yellow-300 text-2xl font-bold"
                     >
-                        BUY NOW
+                        ORDER NOW
                     </a>
                     <button
                         onClick={copyLink}

@@ -23,13 +23,22 @@ const Hero = () => {
                         उन्हें कम ना होने दें
                     </span>
                 </p>
-                <AnchorLink
-                    to="#sparrow"
-                    title="Learn More!"
-                    className="self-start mt-4 ml-3 md:ml-8 p-3 text-xl px-6 font-semibold bg-yellow-400 text-[#6d5b1c] rounded-md hover:bg-yellow-300"
-                >
-                    और अधिक जानें!
-                </AnchorLink>
+                <div className="flex flex-col md:flex-row">
+                    <AnchorLink
+                        to="#sparrow"
+                        title="Learn More!"
+                        className="self-start mt-4 ml-3 md:ml-8 p-3 text-xl px-6 font-semibold bg-yellow-400 text-[#6d5b1c] rounded-md hover:bg-yellow-300"
+                    >
+                        और अधिक जानें!
+                    </AnchorLink>
+                    <AnchorLink
+                        to="#sparrow"
+                        title="Learn More!"
+                        className="self-start mt-4 ml-3 md:ml-4 p-3 text-xl px-6 font-semibold bg-yellow-400 text-[#6d5b1c] rounded-md hover:bg-yellow-300"
+                    >
+                        घोंसला ऑर्डर करें, अभी !!
+                    </AnchorLink>
+                </div>
             </div>
         </div>
     );

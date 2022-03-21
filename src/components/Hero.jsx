@@ -23,13 +23,22 @@ const Hero = () => {
                         Don't let them fade away!
                     </span>
                 </p>
-                <AnchorLink
-                    to="/#sparrow"
-                    title="Learn More!"
-                    className="self-start mt-4 ml-3 md:ml-8 p-4 px-6 font-black text-xl bg-yellow-400 text-[#6d5b1c] rounded-md hover:bg-yellow-300"
-                >
-                    LEARN MORE!
-                </AnchorLink>
+                <div className="flex flex-col md:flex-row">
+                    <AnchorLink
+                        to="/#sparrow"
+                        title="Learn More!"
+                        className="self-start mt-4 ml-3 md:ml-8 p-4 px-6 font-black text-xl bg-yellow-400 text-[#6d5b1c] rounded-md hover:bg-yellow-300"
+                    >
+                        LEARN MORE!
+                    </AnchorLink>
+                    <AnchorLink
+                        to="/#sparrow"
+                        title="Learn More!"
+                        className="self-start mt-4 ml-3 md:ml-4 p-4 px-6 font-black text-xl bg-yellow-400 text-[#6d5b1c] rounded-md hover:bg-yellow-300"
+                    >
+                        ORDER A NEST, NOW!!
+                    </AnchorLink>
+                </div>
             </div>
         </div>
     );

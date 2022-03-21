@@ -16,7 +16,7 @@ const Header = () => {
                     <img
                         src={morchiraiyalogo}
                         alt="Logo Text"
-                        className="hidden md:block ml-6 invert-[0.95] h-20 my-auto"
+                        className="hidden md:block ml-6 invert-[0.95] h-16 my-auto"
                     />
                 </div>
                 <NavMenu />

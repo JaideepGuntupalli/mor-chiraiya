@@ -73,15 +73,22 @@ const Product = () => {
                     </ul>
                 </div>
                 <div className="flex flex-col md:flex-row items-center gap-4 md:gap-0">
-                    <a
-                        href="https://rzp.io/l/55rZOa1HG0"
-                        className="text-[#6d5b1c] p-4 px-8 bg-yellow-400 rounded-md hover:bg-yellow-300 text-2xl font-bold"
-                    >
-                        अभी खरीदें
-                    </a>
+                    <div className="flex flex-col items-center gap-1">
+                        <a
+                            href="https://rzp.io/l/55rZOa1HG0"
+                            className="text-[#6d5b1c] p-3 pt-4 px-8 bg-yellow-400 rounded-md hover:bg-yellow-300 text-2xl font-bold"
+                        >
+                            अभी खरीदें
+                        </a>
+                        <img
+                            src="https://cdn.razorpay.com/static/assets/powered_by_razorpay.png"
+                            alt="Powered by Razorpay"
+                            className="h-5"
+                        />
+                    </div>
                     <button
                         onClick={copyLink}
-                        className="text-[#253526] mx-8 hover:text-[#29422a] text-xl font-bold underline"
+                        className="text-[#253526] mx-8 hover:text-[#29422a] text-xl font-bold underline pb-6"
                     >
                         दोस्तों को बताओ
                     </button>

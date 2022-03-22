@@ -10,7 +10,7 @@ const TransparentCard = ({ title, content, cta, link }) => {
                 <p className="py-4 pb-12">{content}</p>
             </div>
             <a
-                href="https://rzp.io/l/55rZOa1HG0"
+                href={link}
                 className="p-4 px-6 bg-[#253526] text-gray-200 font-bold rounded-md hover:bg-[#29422a] self-start"
             >
                 {cta}

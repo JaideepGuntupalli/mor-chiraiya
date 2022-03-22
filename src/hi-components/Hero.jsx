@@ -32,11 +32,11 @@ const Hero = () => {
                         और अधिक जानें!
                     </AnchorLink>
                     <AnchorLink
-                        to="#sparrow"
+                        to="#diy-kit"
                         title="Learn More!"
                         className="self-start mt-4 ml-3 md:ml-4 p-3 text-xl px-6 font-semibold bg-yellow-400 text-[#6d5b1c] rounded-md hover:bg-yellow-300"
                     >
-                        घोंसला ऑर्डर करें, अभी !!
+                        अभी घोसला ऑर्डर करें !!!
                     </AnchorLink>
                 </div>
             </div>

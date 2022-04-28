@@ -95,12 +95,15 @@ const Product = () => {
                     Create your own nest for your loved birds
                 </p>
                 <img src={bag} alt="shipping bag" />
-                <div className="flex gap-2 text-[#253526] mx-auto">
-                    <p className="text-2xl md:text-3xl">₹</p>
-                    <p className="text-4xl md:text-5xl">99</p>
-                    <p className="text-xl md:text-2xl self-end text-[#6d5b1c]">
-                        / KIT
-                    </p>
+                <div className="flex flex-col gap-2 text-[#253526] mx-auto">
+                    <div className="flex gap-2">
+                        <p className="text-2xl md:text-3xl">₹</p>
+                        <p className="text-4xl md:text-5xl">99</p>
+                        <p className="text-xl md:text-2xl self-end text-[#6d5b1c]">
+                            / KIT
+                        </p>
+                    </div>
+                    <p>+ ₹ 60 for delivery</p>
                 </div>
                 <div className="flex flex-col md:flex-row items-center gap-4 md:gap-0 my-10 md:hidden">
                     <a

@@ -49,6 +49,13 @@ body {
     background-size: cover;
 }
 
+#sparrow {
+    background: url("./../images/feather-bg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .image-gallery-icon {
     color: #fff;
     transition: all 0.3s ease-out;

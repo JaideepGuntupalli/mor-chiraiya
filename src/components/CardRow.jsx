@@ -24,7 +24,7 @@ const CardRow = () => {
                 content="Sparrows are closely related to the human population. It prefers to be around humans so that it gets both food and shelter. Sparrows mainly like to eat grains and seeds. They are omnivores and also eat insects, fruits, etc."
             />
 
-            <div className="w-5/6 bg-[#3F3221] p-6 text-center md:mx-4">
+            <div className="w-5/6 bg-[#3F3221]/75 backdrop-blur-sm p-6 text-center md:mx-4">
                 <img
                     src={decrease}
                     alt="decrease"
@@ -33,7 +33,7 @@ const CardRow = () => {
                 <h2 className="text-2xl mb-4 text-[#76B947]">
                     Sparrows are fading away
                 </h2>
-                <p className="text-[#909090] text-sm leading-6 w-11/12 mx-auto my-4">
+                <p className="text-gray-300 text-sm leading-6 w-5/6 mx-auto my-4">
                     In the last five years alone, the sparrow population has
                     decreased by{" "}
                     <a
